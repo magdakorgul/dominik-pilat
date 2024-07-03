@@ -1,19 +1,22 @@
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Paintings from './pages/Paintings';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Dominik Piłat</h1>
-      </header>
-      <main>
-        <p>This will be the main content</p>
-      </main>
+    
+    <Router>
+      {/* <Navbar /> */}
+      <div>
+        <Routes>
+          {/* <Route path="/" /> */}
+          <Route path="/paintings" element={<Paintings />} />
+        </Routes>
+      </div>
       <footer>
         The footer
       </footer>
-    </div>
+      </Router>
   );
 }
 
