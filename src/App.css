@@ -98,6 +98,12 @@ a:active {
 a:link {
   color: white;
 }
+
+/* large grid */
+
+
+
+
 @media (max-width: 480px) {
   .top {
     display: block;
