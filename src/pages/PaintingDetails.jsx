@@ -25,12 +25,17 @@ const PaintingDetails = () => {
 
         <div className="painting-details">
             <div key={painting.id} className="item">
-                    <img src={painting.imageUrl} alt={painting.title} />
-                    <div>
+                    
+                    <div className="grid grid-cols-2 gap-4">
+                        <div>
+                        <img src={painting.imageUrl} alt={painting.title} />
+                        </div>
+                        <div>
                     <p>{painting.title}</p>
                     <p>{painting.price} €</p>
                     <p>{painting.description}</p>
                     <p>{painting.details}</p>
+                    </div>
                     </div>
                 </div>
                 </div>
