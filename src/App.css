@@ -5,7 +5,7 @@
 
 body {
   background-color: #6193c5;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin: 0 auto;
   padding: 0;
   color: #e6e6e6;
@@ -30,6 +30,10 @@ body {
   min-width: 0;
 }
 
+h1{
+  text-transform: uppercase;
+}
+
 p {
   text-align: center;
   font-size: 27px;
@@ -40,6 +44,7 @@ h2 {
   font-size: 50px;
   font-weight: 800;
   line-height: 50px;
+  text-transform: uppercase;
 }
 
 .top {
