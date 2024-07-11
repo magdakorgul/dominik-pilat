@@ -11,7 +11,14 @@ const LargeGrid = ({items}) => {
                     <img src={item.imageUrl} alt={item.title} className="image w-72 h-72 mb-3" />
                     <div className="flex justify-between w-72">
                     <p className="title text-left text-xl">{item.title}</p>
-                    <p className="text-base text-right">{item.price} €</p>
+                    <p className="text-base text-right">
+                            {item.price} 
+                            {item.price !== "sold" && (
+                                <>
+                                    €
+                                </>
+                            )}
+                            </p>
                     </div>
                 </div>
             ))}

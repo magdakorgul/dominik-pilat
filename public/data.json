@@ -12,7 +12,10 @@
       "id": 2,
       "title": "Obraz 2",
       "imageUrl": "https://images.unsplash.com/photo-1515405295579-ba7b45403062?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBhaW50aW5nfGVufDB8fDB8fHww",
-      "price": 1200
+      "price": 1200,
+      "description":"Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
+      "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
+
     },
     {
       "id": 3,

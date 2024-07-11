@@ -34,9 +34,13 @@ const PaintingDetails = () => {
                     <h1 className="text text-left text-3xl">{painting.title}</h1>
                     <h2 className="text text-left text-xl">{painting.price} €</h2>
                     <p className="text text-left text-base mt-8 mb-4 leading-tight">{painting.description}</p>
+
+                    {painting.price !== "sold" && (
                     <button type="button" className="inline-flex items-center justify-center rounded-md bg-white hover:bg-gray-100 text-black py-2 px-4 mt-4 mb-4 w-full h-12">
                     Ask to buy
                     </button>
+                    )}
+
                     <p className="text text-left text-base">Details <br /></p>
                     <ul className="text text-left text-base list-disc pl-4">
                         {painting.details.map((detail, index) => (
