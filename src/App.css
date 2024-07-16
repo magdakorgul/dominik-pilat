@@ -118,7 +118,27 @@ a:link {
 }
 
 
+
+
 /* large grid */
+.no-underline {
+  text-decoration: none;
+}
+
+.image {
+  margin-bottom: 0;
+  display: block;
+}
+
+.item p {
+  margin: 0; /* Resetowanie domyślnych marginesów */
+}
+
+.item {
+  margin-bottom: 0;
+  padding: 0;
+}
+
 
 
 
