@@ -104,6 +104,20 @@ a:link {
   color: white;
 }
 
+.arrow-left, .arrow-right {
+  display: flex;
+  width: auto; /* USTAWIENIE AUTO, ABY STRZAŁKI NIE PRZESUWAŁY SIĘ */
+}
+
+.arrow-left {
+  justify-content: flex-start;
+}
+
+.arrow-right {
+  justify-content: flex-end;
+}
+
+
 /* large grid */
 
 

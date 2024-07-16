@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "../../src/App.css"
-
-
+import {ReactComponent as ArrowRight} from "../assets/arrow_right.svg";
+import {ReactComponent as ArrowLeft} from "../assets/arrow_left.svg";
 
 const PaintingDetails = () => {
     const {paintingId} = useParams();
@@ -21,18 +21,29 @@ const PaintingDetails = () => {
         return <div>Loading...</div>;
     }
 
+    const isSold = painting.price === "sold";
+
     return(
 
         <div className="painting-details">
             <div key={painting.id} className="item">
                     
                     <div className="grid grid-cols-2 gap-4 ml-12 mr-14 mt-28 mb-14">
-                        <div>
-                        <img src={painting.imageUrl} alt={painting.title} className="w-11/12 h-11/12 mr-14" />
+                        <div className="flex flex-col items-center">
+                        <img src={painting.imageUrl} alt={painting.title} className="w-11/12 h-11/12" />
+                        <div className="flex justify-between w-11/12 mt-6">
+                        <div className="arrow-left">
+                            <ArrowLeft />
+                            </div>
+                        <div className="arrow-right">
+                            <ArrowRight />
+                        </div>
+                        </div>
                         </div>
                         <div >
                     <h1 className="text text-left text-3xl">{painting.title}</h1>
-                    <h2 className="text text-left text-xl">{painting.price} €</h2>
+                    <h2 className="text text-left text-xl">
+                    {isSold ? "sold" : `${painting.price} €`}</h2>
                     <p className="text text-left text-base mt-8 mb-4 leading-tight">{painting.description}</p>
 
                     {painting.price !== "sold" && (
