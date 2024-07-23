@@ -13,7 +13,10 @@ const DesignDetails = () => {
     useEffect(() => {
         fetch(`/design/data.json`)
         .then(res => res.json())
-        .then(data => {const foundDesign = data.find(item => item.id === parseInt(designId));
+        .then(data => {
+            console.log('Fetched data:', data);  // Dodaj logowanie
+            const foundDesign = data.find(item => item.id === parseInt(designId));
+            console.log('Found design:', foundDesign);  // Dodaj logowanie
             setDesign(foundDesign);
             setItems(data);
         })
@@ -32,7 +35,7 @@ const DesignDetails = () => {
 
     return(
 
-        <div className="painting-details">
+        <div className="design-details">
             <div key={design.id} className="item">
                     
                     <div className="grid grid-cols-2 gap-4 ml-12 mr-14 mt-28 mb-14">
