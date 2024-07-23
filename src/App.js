@@ -2,6 +2,8 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import './App.css';
 import Paintings from './pages/Paintings';
 import PaintingDetails from './pages/PaintingDetails';
+import Design from './pages/Design';
+import DesignDetails from './pages/DesignDetails';
 // import LargeGrid from './components/LargeGrid'; 
 
 
@@ -14,7 +16,13 @@ const App = () => {
   const getClassForPath = (pathname) => {
     if (pathname === '/paintings') {
       return 'bg-paintings';
-    } else if (pathname.match(/^\/paintings\/\d+$/)) { // bardziej precyzyjne sprawdzenie dynamicznej ścieżki
+    } else if (pathname === '/design') {
+      return 'bg-design';
+    }
+    else if (pathname.startsWith('/design/')) {  // Dodaj tutaj
+      return 'bg-design';
+    }
+    else if (pathname.match(/^\/paintings\/\d+$/)) { // bardziej precyzyjne sprawdzenie dynamicznej ścieżki
       return 'bg-painting-details';
     } else {
       return '';
@@ -40,6 +48,8 @@ const App = () => {
         
         <Route path="/paintings" element={<Paintings />}/>
         <Route path="/paintings/:paintingId" element={<PaintingDetails />} />
+        <Route path="/design" element={<Design />} />
+        <Route path="/design/:designId" element={<DesignDetails />} />
         
         {/* Dodaj więcej tras w razie potrzeby */}
       </Routes>
