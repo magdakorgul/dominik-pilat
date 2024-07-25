@@ -45,7 +45,7 @@ const App = () => {
 
   return (
     <div className={`App ${currentClass}`}>     
-      <Navbar />
+      <Navbar backgroundClass={currentClass} />
      <Routes>
         
         <Route path="/paintings" element={<Paintings />}/>
