@@ -4,6 +4,7 @@ import Paintings from './pages/Paintings';
 import PaintingDetails from './pages/PaintingDetails';
 import Design from './pages/Design';
 import DesignDetails from './pages/DesignDetails';
+import Navbar from './components/Navbar';
 // import LargeGrid from './components/LargeGrid'; 
 
 
@@ -44,6 +45,7 @@ const App = () => {
 
   return (
     <div className={`App ${currentClass}`}>     
+      <Navbar />
      <Routes>
         
         <Route path="/paintings" element={<Paintings />}/>

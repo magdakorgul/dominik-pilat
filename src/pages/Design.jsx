@@ -15,7 +15,7 @@ const Design = () => {
 
     return (
         <div>
-            <LargeGrid items={items} basePath="design" />
+            <LargeGrid items={items} basePath="design" showPrice={false} />
         </div>
     );
 };

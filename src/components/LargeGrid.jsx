@@ -2,7 +2,7 @@ import "../App.css";
 import {Link} from "react-router-dom";
 
 
-const LargeGrid = ({items, basePath}) => {
+const LargeGrid = ({items, basePath, showPrice}) => {
     console.log('Items:', items);
 
 
@@ -15,6 +15,7 @@ const LargeGrid = ({items, basePath}) => {
                     <img src={item.imageUrl} alt={item.title} className="image w-72 h-72 mb-2" />
                     <div className="flex justify-between w-72">
                     <p className="title text-left text-xl mb-0">{item.title}</p>
+                    {showPrice && (
                     <p className="text-base text-right mb-0">
                             {item.price} 
                             {item.price !== "sold" && (
@@ -23,6 +24,7 @@ const LargeGrid = ({items, basePath}) => {
                                 </>
                             )}
                             </p>
+                    )}
                     </div>
                     </Link>
                 </div>

@@ -15,7 +15,7 @@ const Paintings = () => {
 
     return (
         <div>
-            <LargeGrid items={items} basePath="paintings" />
+            <LargeGrid items={items} basePath="paintings" showPrice={true} />
         </div>
     );
 };
