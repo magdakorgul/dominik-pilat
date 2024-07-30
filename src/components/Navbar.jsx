@@ -14,19 +14,19 @@ return(
 
 
     <li>
-    <a href="/design" className="block  text-gray-900 rounded  hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0" aria-current="page">Design</a>
+    <a href="/design" className="block  text-white rounded  hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0" aria-current="page">Design</a>
   </li>
   <li>
-    <a href="/paintings" className="block  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0">Paintings</a>
+    <a href="/paintings" className="block  text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0">Paintings</a>
   </li>
   <li>
-    <a href="/branding" className="block  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0">Branding</a>
+    <a href="/branding" className="block  text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0">Branding</a>
   </li>
   <li>
-    <a href="/about" className="block  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0">About</a>
+    <a href="/about" className="block  text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0">About</a>
   </li>
   <li className="pr-0">
-    <a href="/contact" className="block  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0">Contact</a>
+    <a href="/contact" className="block  text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0">Contact</a>
   </li>
 </ul>
 
