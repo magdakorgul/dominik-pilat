@@ -17,6 +17,7 @@ body {
   color: #e6e6e6;
   font-family: "Manrope", sans-serif;
   background: #5c7c57;
+  
 }
 
 .container {
@@ -37,20 +38,17 @@ body {
   min-width: 0;
 }
 
-h1{
-  text-transform: uppercase;
-}
 
 p {
   text-align: center;
-  font-size: 27px;
-  font-weight: 500;
+  /* font-size: 27px;
+  font-weight: 500; */
 }
 h2 {
   text-align: center;
-  font-size: 50px;
+  /* font-size: 50px;
   font-weight: 800;
-  line-height: 50px;
+  line-height: 50px; */
   text-transform: uppercase;
 }
 

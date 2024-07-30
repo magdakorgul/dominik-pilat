@@ -8,7 +8,7 @@ const LargeGrid = ({items, basePath, showPrice}) => {
 
     return(
 
-        <div className="large-grid grid grid-cols-4 p-8 gap-x-0 gap-5">
+        <div className="large-grid grid grid-cols-4 p-8 gap-x-0 gap-5 uppercase">
             {items.map(item => (
                 <div key={item.id} className="item paintings-card">
                     <Link to={`/${basePath}/${item.id}`} className="no-underline">
