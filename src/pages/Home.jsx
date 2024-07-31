@@ -11,12 +11,12 @@ const Home = () => {
 
 
     return (
-<div className="uppercase text-center flex flex-row justify-center items-center space-x-8 mt-8">
-<div className="flex flex-col items-center space-y-4">
-        <FlowerLeft className="flower-left max-w-60" />
-        <FlowerBottom className="flower-bottom max-w-60" />
+<div className="uppercase text-center flex flex-row justify-center items-center">
+<div className="flex flex-col items-center">
+        <FlowerLeft className="flower-left max-w-60 m-0" />
+        <FlowerBottom className="flower-bottom max-w-60 m-0" />
       </div>
-      <div className="flex flex-col items-center space-y-4">
+      <div className="flex flex-col items-center">
         <FlowerTop className="flower-top max-w-60" />
         
         <div className="content text-center">
@@ -28,7 +28,7 @@ const Home = () => {
         </div>
         <FlowerBottom className="flower-bottom max-w-60" />
         </div>
-<div className="flex flex-col items-center space-y-4">
+<div className="flex flex-col items-center">
     <FlowerRight className="flower-right max-w-60" />
     <FlowerBottom className="flower-bottom max-w-60" />
 </div>

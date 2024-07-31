@@ -133,6 +133,11 @@ a:link {
   color:#6193c5;
 }
 
+.item, .paintings-card, .image, .title {
+  margin: 0;
+  padding: 0;
+}
+
 
 @media (max-width: 480px) {
   .top {

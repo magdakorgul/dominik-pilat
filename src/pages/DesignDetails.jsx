@@ -41,7 +41,7 @@ const DesignDetails = () => {
                     <div className="grid grid-cols-2 gap-4 ml-12 mr-14 mt-28 mb-14">
                         <div className="flex flex-col items-center">
                         <img src={design.imageUrl} alt={design.title} className="w-11/12 h-11/12" />
-                        <div className="flex justify-between w-11/12">
+                        <div className="flex justify-between" style={{ width: 'calc(100% - 14px)' }}>
                         <Link to={`/design/${previousItem.id}`} className="arrow-left">
                                 <ArrowLeft />
                             </Link>
