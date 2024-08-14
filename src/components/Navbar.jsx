@@ -5,7 +5,7 @@ const Navbar = ({backgroundClass}) => {
 
 return(
 <nav className={`navbar ${backgroundClass}`}>
-<div className="max-w-screen-xl ml-auto mr-auto flex items-center justify-between pb-1 pt-0 text-transform: uppercase">
+<div className="max-w-screen-xl ml-auto mr-auto flex items-center justify-between pt-0 pb-6 text-transform: uppercase">
     <a href="/home">
         <span className="self-center text-2xl font-semibold whitespace-nowrap">Dominik Piłat</span>
     </a>
