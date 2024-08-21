@@ -7,6 +7,7 @@ import DesignDetails from './pages/DesignDetails';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
+import Contact from './pages/Contact';
 // import LargeGrid from './components/LargeGrid'; 
 
 
@@ -55,6 +56,7 @@ const App = () => {
         <Route path="/design" element={<Design />} />
         <Route path="/design/:designId" element={<DesignDetails />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
 
         
         {/* Dodaj więcej tras w razie potrzeby */}
