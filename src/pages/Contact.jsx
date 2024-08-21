@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
     return (
-        <div className="contact grid grid-cols-2 gap-4 ml-12 mr-14 mt-28 mb-14 text-left">
+        <div className="contact grid grid-cols-2 gap-4 mt-16 mb-14 mx-32 text-left">
             <div className="flex flex-col text-left">
                 <div className="flex flex-col items-start justify-start">
 
@@ -65,11 +65,17 @@ const Contact = () => {
                                 Send
                             </button>
                         </div>
+                        
                     </form>
                 </div>
-            </div>
+                <div className="mt-12">
+                <p className="text-left">Enquiries</p>
+                <p className="text-left">dominic.pilat@gmail.com</p>
+                <p className="text-left">instagram</p>
 
-            <div className="flex flex-col items-center"></div>
+                </div>
+            </div>
+          
         </div>
     );
 };

@@ -189,7 +189,7 @@ a:link {
     max-width: 250px;
   }
   p {
-    font-size: 22px;
+    /* font-size: 22px; */ /*dodac klase tam gdzie potrzeba, zwiekszalo font w contact przy zmniejszaniu ekranu*/
   }
   h2 {
     font-size: 40px;

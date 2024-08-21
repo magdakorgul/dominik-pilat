@@ -35,9 +35,12 @@ const PaintingDetails = () => {
         <div className="painting-details">
             <div key={painting.id} className="item">
                     
-                    <div className="grid grid-cols-2 gap-4 ml-12 mr-14 mt-28 mb-14">
+                    <div className="grid grid-cols-2 gap-14 mx-32 mt-16 mb-14"> 
+                        {/* gap 14 zamiast 20 - nie zmniejsza sie tak obrazek, do sprawdzenia czy taka odleglosc jest ok */}
                         <div className="flex flex-col items-center">
-                        <img src={painting.imageUrl} alt={painting.title} className="w-11/12 h-11/12" />
+                        <div className="w-11/12 h-11/12 aspect-square overflow-hidden flex items-center justify-center">
+    <img src={painting.imageUrl} alt={painting.title} className="object-cover w-full h-full" />
+</div>
                         <div className="flex justify-between" style={{ width: 'calc(100% - 14px)' }}>
                         <Link to={`/paintings/${previousItem.id}`} className="arrow-left">
                                 <ArrowLeft />
@@ -49,7 +52,7 @@ const PaintingDetails = () => {
                         </div>
                         </div>
                         <div >
-                    <h1 className="text text-left text-3xl">{painting.title}</h1>
+                    <h1 className="text text-left text-3xl uppercase">{painting.title}</h1>
                     <h2 className="text text-left text-xl">
                     {isSold ? "sold" : `${painting.price} €`}</h2>
                     <p className="text text-left text-base mt-8 mb-4 leading-tight">{painting.description}</p>

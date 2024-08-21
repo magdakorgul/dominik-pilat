@@ -9,7 +9,7 @@ import {Link} from "react-router-dom";
 const About = () => {
     return (
         <div className="about-details">
-            <div className="grid grid-cols-2 gap-0 ml-24 mr-24 mt-28 mb-14">
+            <div className="grid grid-cols-2 gap-0 ml-24 mr-24 mt-16 mb-14 mx-32">
                 <div className="max-w-lg">
                     <h1 className="text-left text-3xl uppercase">Dominik Pilat</h1>
                     <p className="text-left text-base mt-8 mb-4 leading-tight">
