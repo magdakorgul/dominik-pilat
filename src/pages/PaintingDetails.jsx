@@ -35,13 +35,18 @@ const PaintingDetails = () => {
         <div className="painting-details">
             <div key={painting.id} className="item">
                     
-                    <div className="grid grid-cols-2 gap-14 mx-32 mt-16 mb-14"> 
+                    <div className="grid grid-cols-1 md:grid-cols-2 md:gap-14 md:mx-32 md:mt-16 md:mb-14"> 
                         {/* gap 14 zamiast 20 - nie zmniejsza sie tak obrazek, do sprawdzenia czy taka odleglosc jest ok */}
                         <div className="flex flex-col items-center">
                         <div className="w-11/12 h-11/12 aspect-square overflow-hidden flex items-center justify-center">
-    <img src={painting.imageUrl} alt={painting.title} className="object-cover w-full h-full" />
-</div>
-                        <div className="flex justify-between" style={{ width: 'calc(100% - 14px)' }}>
+                        <img 
+                        src={painting.imageUrl} 
+                        alt={painting.title} 
+                        className="w-11/12 h-11/12 md:object-cover md:w-full md:h-full" />
+                        </div>
+
+                        <div className="hidden md:flex justify-between" 
+                        style={{ width: 'calc(100% - 14px)' }}>
                         <Link to={`/paintings/${previousItem.id}`} className="arrow-left">
                                 <ArrowLeft />
                             </Link>
@@ -51,8 +56,8 @@ const PaintingDetails = () => {
                         
                         </div>
                         </div>
-                        <div >
-                    <h1 className="text text-left text-3xl uppercase">{painting.title}</h1>
+                        <div className="mx-6">
+                    <h1 className="text uppercase text-left text-xl mb-2 mt-4 font-semibold md:text-3xl">{painting.title}</h1>
                     <h2 className="text text-left text-xl">
                     {isSold ? "sold" : `${painting.price} €`}</h2>
                     <p className="text text-left text-base mt-8 mb-4 leading-tight">{painting.description}</p>
@@ -63,11 +68,20 @@ const PaintingDetails = () => {
                     </button>
                     )}
 
-                    <p className="text text-left text-base">Details <br /></p>
-                    <ul className="text text-left text-base list-disc pl-4">
+                    <p className="text text-left text-base mb-2 md:mb-0">Details <br /></p>
+                    <ul className="text text-left text-base list-disc pl-4 mb-4">
                         {painting.details.map((detail, index) => (
                             <li key={index}>{detail}</li>
                         ))}</ul>
+
+                        <div className="flex justify-between mt-10 mb-10 md:hidden">
+                            <Link to={`/paintings/${previousItem.id}`} className="arrow-left">
+                                <ArrowLeft />
+                            </Link>
+                            <Link to={`/paintings/${nextItem.id}`} className="arrow-right">
+                                <ArrowRight />
+                            </Link>
+                        </div>
                     </div>
                     </div>
                 </div>
