@@ -1,14 +1,18 @@
 import "../../src/App.css";
-// import { Link } from "react-router-dom";
+import { ReactComponent as Behance } from "../assets/behance.svg";
+import { ReactComponent as Instagram } from "../assets/instagram.svg";
+import { ReactComponent as Mail } from "../assets/mail.svg";
+import { ReactComponent as Linkedin } from "../assets/linkedin.svg";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
     return (
-        <div className="contact grid grid-cols-2 gap-4 mt-16 mb-14 mx-32 text-left">
+        <div className="contact grid grid-cols-1 gap-4 mt-16 mb-14 mx-8 text-left md:grid-cols-2 md:mx-32"> {/* Zmiany w klasach grid i mx */}
             <div className="flex flex-col text-left">
                 <div className="flex flex-col items-start justify-start">
 
-                    <h1 className="uppercase text-left">Contact</h1>
-                    <form className="w-full md:w-2/3 mt-4">
+                    <h1 className="uppercase text-left font-semibold text-xl">Contact</h1>
+                    <form className="w-full md:w-4/5 mt-4"> 
                         <div className="relative z-0 w-full mb-5 group">
                             <input
                                 type="email"
@@ -57,7 +61,7 @@ const Contact = () => {
                                     Your message
                                 </label>
                             </div>
-                        <div className="w-full mt-5">
+                        <div className="w-full mt-8 ">
                             <button
                                 type="submit"
                                 className="text-black bg-white hover:bg-gray-100 font-medium rounded-sm text-sm w-full px-5 py-2.5 text-center"
@@ -69,11 +73,26 @@ const Contact = () => {
                     </form>
                 </div>
                 <div className="mt-12">
-                <p className="text-left">Enquiries</p>
-                <p className="text-left">dominic.pilat@gmail.com</p>
+                <p className="text-left mb-2 font-semibold">Enquiries</p>
+                <p className="text-left mb-2">dominic.pilat@gmail.com</p>
                 <p className="text-left">instagram</p>
 
                 </div>
+                <div className="flex justify-center md:justify-start items-center space-x-8 mt-44 md:mt-28 mb-4">
+                        <Link to="https://www.behance.net/dominikpilat" target="_blank" className="w-8 h-8">
+                            <Behance className="w-full h-full inline-block"/>
+                        </Link>
+                        <Link to="https://www.instagram.com/dominik_pilat" target="_blank">
+                            <Instagram className="w-full h-full"/>
+                        </Link>
+                        <Link to='javascript:void(0)' target="_blank"
+                            onClick={() => window.location = 'mailto:pilatdom@gmail.com'}>
+                            <Mail className="w-full h-full"/>
+                        </Link>
+                        <Link to="https://www.linkedin.com" target="_blank">
+                            <Linkedin className="w-full h-full"/>
+                        </Link>
+                    </div>
             </div>
           
         </div>

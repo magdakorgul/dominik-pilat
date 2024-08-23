@@ -26,7 +26,7 @@ const About = () => {
                         <br />instagram
                     </p>
                     {/* Dodanie justify-center */}
-                    <div className="flex justify-center items-center space-x-8 md:space-x-4 mt-12 mb-6">
+                    <div className="flex justify-center items-center space-x-8 mt-12 mb-6">
                         <Link to="https://www.behance.net/dominikpilat" target="_blank" className="w-8 h-8">
                             <Behance className="w-full h-full inline-block"/>
                         </Link>
