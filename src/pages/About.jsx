@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 import "../../src/App.css";
 import { ReactComponent as Behance } from "../assets/behance.svg";
 import { ReactComponent as Instagram } from "../assets/instagram.svg";
@@ -25,8 +25,7 @@ const About = () => {
                         <br />dominic.pilat@gmail.com 
                         <br />instagram
                     </p>
-                    {/* Dodanie justify-center */}
-                    <div className="flex justify-center items-center space-x-8 mt-12 mb-6">
+                    <div className="flex justify-center items-center space-x-8 md:mt-12 mt-24 mb-6">
                         <Link to="https://www.behance.net/dominikpilat" target="_blank" className="w-8 h-8">
                             <Behance className="w-full h-full inline-block"/>
                         </Link>
@@ -42,7 +41,8 @@ const About = () => {
                         </Link>
                     </div>
                 </div>
-                <div className="hidden md:flex md:justify-center md:mb-0">
+                {/* Zmiana justify-center na text-left dla wyrownania obrazka */}
+                <div className="hidden md:flex md:items-start md:mb-0">
                     <img src="https://ralfvanveen.com/wp-content/uploads/2021/06/Placeholder-_-Glossary.svg" alt="dominik" className="max-w-full h-auto" />
                 </div>
             </div>

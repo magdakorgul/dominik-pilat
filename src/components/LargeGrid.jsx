@@ -14,11 +14,11 @@ const LargeGrid = ({items, basePath, showPrice}) => {
                 <div key={item.id} className="item paintings-card">
                     <Link to={`/${basePath}/${item.id}`} className="no-underline block">
                     <img src={item.imageUrl} alt={item.title} className="image w-44 h-44 mb-1 px-2 block
-                     md:w-64 md:h-64 md:mb-2" />
+                     md:w-64 md:h-64 md:mt-4" />
                     <div className="flex justify-between md:w-64 pt-2">
                     <p className="title text-left md:text-xl m-0 hidden md:block lg:block">{item.title}</p>
                     {showPrice && (
-                    <p className="text-base text-right m-0 hidden md:block lg:block">
+                    <p className="text-base text-right m-0 md:mb-2 hidden md:block lg:block">
                             {item.price} 
                             {item.price !== "sold" && (
                                 <>

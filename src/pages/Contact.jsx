@@ -78,7 +78,7 @@ const Contact = () => {
                 <p className="text-left">instagram</p>
 
                 </div>
-                <div className="flex justify-center md:justify-start items-center space-x-8 mt-44 md:mt-28 mb-4">
+                <div className="flex justify-center md:justify-start items-center space-x-8 mt-44 md:mt-28 mb-6">
                         <Link to="https://www.behance.net/dominikpilat" target="_blank" className="w-8 h-8">
                             <Behance className="w-full h-full inline-block"/>
                         </Link>

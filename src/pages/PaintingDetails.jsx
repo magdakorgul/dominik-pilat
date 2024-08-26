@@ -45,8 +45,8 @@ const PaintingDetails = () => {
                         className="w-11/12 h-11/12 md:object-cover md:w-full md:h-full" />
                         </div>
 
-                        <div className="hidden md:flex justify-between" 
-                        style={{ width: 'calc(100% - 14px)' }}>
+                        <div className="hidden md:flex justify-between md:mt-6" 
+                        style={{ width: 'calc(100% - 44px)' }}>
                         <Link to={`/paintings/${previousItem.id}`} className="arrow-left">
                                 <ArrowLeft />
                             </Link>
@@ -57,7 +57,7 @@ const PaintingDetails = () => {
                         </div>
                         </div>
                         <div className="mx-6">
-                    <h1 className="text uppercase text-left text-xl mb-2 mt-4 font-semibold md:text-3xl">{painting.title}</h1>
+                    <h1 className="text uppercase text-left text-xl mb-2 mt-4 md:-mt-2 font-semibold md:text-3xl">{painting.title}</h1>
                     <h2 className="text text-left text-xl">
                     {isSold ? "sold" : `${painting.price} €`}</h2>
                     <p className="text text-left text-base mt-8 mb-4 leading-tight">{painting.description}</p>

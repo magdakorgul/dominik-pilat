@@ -50,8 +50,8 @@ const DesignDetails = () => {
                         </div>
 
                         <div
-                            className="hidden md:flex justify-between"
-                            style={{ width: "calc(100% - 14px)" }}
+                            className="hidden md:flex justify-between md:mt-6"
+                            style={{ width: "calc(100% - 44px)" }}
                         >
                             <Link to={`/design/${previousItem.id}`} className="arrow-left">
                                 <ArrowLeft />
