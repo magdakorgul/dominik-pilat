@@ -62,10 +62,10 @@ const DesignDetails = () => {
                         </div>
                     </div>
                     <div className="mx-6">
-                        <h1 className="text uppercase text-left text-xl mb-2 mt-4 font-semibold md:text-3xl">
+                        <h1 className="text uppercase text-left text-xl mb-2 mt-4 md:-mt-2 font-semibold md:text-2xl">
                             {design.title}
                         </h1>
-                        <p className="text text-left md:text-base md:mt-8 md:mb-4 leading-tight">
+                        <p className="text text-left md:text-base md:mt-4 md:mb-4 leading-tight">
                             {design.description}
                         </p>
 

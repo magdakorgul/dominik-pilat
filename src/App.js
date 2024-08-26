@@ -26,6 +26,9 @@ const App = () => {
     else if (pathname.startsWith('/design/')) {
       return 'bg-design';
     }
+    else if (pathname === '/') {
+      return 'bg-home';
+    }
     else if (pathname.startsWith('/design/')) {  // Dodaj tutaj
       return 'bg-design';
     }

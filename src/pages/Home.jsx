@@ -16,7 +16,7 @@ const Home = () => {
             
            
             <div className="relative z-10 text-center text-white mx-4 md:mx-0">
-                <h1 className="text-xl md:text-xl font-normal mb-1 uppercase mt-28 md:mt-36">Dominik Piłat</h1>
+                <h1 className="text-lg md:text-xl font-normal mb-1 uppercase mt-28 md:mt-36">Dominik Piłat</h1>
                 <h2 className="text-2xl md:text-4xl font-medium mb-1 md:max-w-lg">artist, creative, artichoke enthusiast</h2>
                 <p className="text-md md:text-xl font-normal">Your favorite creative living in Berlin.</p>
             </div>

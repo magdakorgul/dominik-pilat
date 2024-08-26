@@ -57,13 +57,13 @@ const PaintingDetails = () => {
                         </div>
                         </div>
                         <div className="mx-6">
-                    <h1 className="text uppercase text-left text-xl mb-2 mt-4 md:-mt-2 font-semibold md:text-3xl">{painting.title}</h1>
+                    <h1 className="text uppercase text-left text-xl mb-2 md:mb-0 mt-4 md:-mt-2 font-semibold md:text-2xl">{painting.title}</h1>
                     <h2 className="text text-left text-xl">
                     {isSold ? "sold" : `${painting.price} €`}</h2>
-                    <p className="text text-left text-base mt-8 mb-4 leading-tight">{painting.description}</p>
+                    <p className="text text-left text-base mt-8 md:mt-4 mb-4 leading-tight">{painting.description}</p>
 
                     {painting.price !== "sold" && (
-                    <button type="button" className="inline-flex items-center justify-center rounded-md bg-white hover:bg-gray-100 text-black py-2 px-4 mt-4 mb-4 w-full h-12">
+                    <button type="button" className="inline-flex items-center justify-center rounded-md bg-white hover:bg-gray-100 text-black py-2 px-4 mt-4 mb-4 md:mb-8 w-full h-12">
                     Ask to buy
                     </button>
                     )}

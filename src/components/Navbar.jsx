@@ -16,9 +16,9 @@ const Navbar = ({ backgroundClass }) => {
 
   return (
     <>
-      <nav className={`navbar ${backgroundClass} px-4 relative z-10`}>
+      <nav className={`navbar ${backgroundClass} px-4 `}>
         <div className="max-w-screen-xl mx-auto flex items-center justify-between py-6 uppercase md:mx-32">
-          <a href="/home" className="text-2xl font-semibold whitespace-nowrap text-white">
+          <a href="/" className="text-2xl font-semibold whitespace-nowrap text-white">
             Dominik Piłat
           </a>
 
@@ -80,7 +80,7 @@ const Navbar = ({ backgroundClass }) => {
               </svg>
             </button>
 
-            <ul className="flex flex-col items-center justify-center w-full h-full p-4 mt-4 text-center space-y-8 md:flex-row md:space-x-6 md:mt-0 md:space-y-0 md:p-0">
+            <ul className="flex flex-col justify-items-end w-full h-full p-4 mt-4 text-center space-y-8 md:flex-row md:space-x-6 md:mt-0 md:space-y-0 md:p-0">
               <li>
                 <NavLink
                   to="/design"
