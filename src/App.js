@@ -23,12 +23,22 @@ const App = () => {
     } else if (pathname === '/design') {
       return 'bg-design';
     }
+    else if (pathname.startsWith('/design/')) {
+      return 'bg-design';
+    }
     else if (pathname.startsWith('/design/')) {  // Dodaj tutaj
       return 'bg-design';
     }
     else if (pathname.match(/^\/paintings\/\d+$/)) { // bardziej precyzyjne sprawdzenie dynamicznej ścieżki
       return 'bg-painting-details';
-    } else {
+    }
+    else if (pathname === '/about') {
+      return 'bg-about';
+    } 
+    else if (pathname === '/contact') {
+      return 'bg-contact';
+    }
+    else {
       return '';
     }
   };

@@ -56,12 +56,14 @@ const Navbar = ({ backgroundClass }) => {
           </button>
 
           <div
-            className={`${
-              isMenuOpen ? "block" : "hidden"
-            } md:flex md:items-center md:w-auto fixed inset-0 bg-gray-800 z-50 flex-col justify-center md:relative md:bg-transparent md:z-auto`}
-            id="navbar-default"
-          >
-            {/* Znak X */}
+  className={`${
+    isMenuOpen ? "block fixed inset-0 z-50" : "hidden"
+  } md:flex md:items-center md:w-auto flex-col justify-center ${backgroundClass} md:relative md:bg-transparent md:z-auto`}
+  id="navbar-default"
+>
+
+
+
             <button
               onClick={toggleMenu}
               className="absolute top-4 right-4 text-white hover:text-gray-400 focus:outline-none md:hidden"
@@ -147,7 +149,7 @@ const Navbar = ({ backgroundClass }) => {
             </ul>
 
             {/* Ikony mediów społecznościowych */}
-            <div className="absolute bottom-4 flex justify-center space-x-4 md:hidden">
+            <div className="absolute bottom-8 left-0 right-0 flex justify-center items-center space-x-8 md:hidden">
               <Link to="https://www.behance.net/dominikpilat" target="_blank" className="w-8 h-8">
                 <Behance className="w-full h-full inline-block"/>
               </Link>

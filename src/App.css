@@ -3,12 +3,21 @@
 @tailwind utilities;
 
 .bg-paintings{
-  background: #5c7c57;
+  background: #c560a2;
+}
+.bg-painting-details{
+  background: #c560a2;
 }
 
 .bg-design {
-  background: #cc7225; 
+  background: #5c7c57; 
 } 
+.bg-about{
+  background: #80543f;
+}
+.bg-contact{
+  background: #cc7225;
+}
 
 body {
   /* text-transform: uppercase; */
