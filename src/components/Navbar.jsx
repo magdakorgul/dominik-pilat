@@ -16,7 +16,7 @@ const Navbar = ({ backgroundClass }) => {
 
   return (
     <>
-      <nav className={`navbar ${backgroundClass} px-4`}>
+      <nav className={`navbar ${backgroundClass} px-4 relative z-10`}>
         <div className="max-w-screen-xl mx-auto flex items-center justify-between py-6 uppercase md:mx-32">
           <a href="/home" className="text-2xl font-semibold whitespace-nowrap text-white">
             Dominik Piłat
