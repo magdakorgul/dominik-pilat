@@ -107,7 +107,7 @@ const Navbar = ({ backgroundClass }) => {
                   Paintings
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink
                   to="/branding"
                   className={({ isActive }) =>
@@ -119,7 +119,7 @@ const Navbar = ({ backgroundClass }) => {
                 >
                   Branding
                 </NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink
                   to="/about"

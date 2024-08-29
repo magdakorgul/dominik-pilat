@@ -50,13 +50,13 @@ const DesignDetails = () => {
                         </div>
 
                         <div
-                            className="hidden md:flex justify-between md:mt-6"
+                            className="flex mt-4 mb-4 md:flex justify-between md:mt-6"
                             style={{ width: "calc(100% - 44px)" }}
                         >
-                            <Link to={`/design/${previousItem.id}`} className="arrow-left">
+                            <Link to={`/design/${previousItem.id}`} className="arrow-left mx-2 md:mx-0">
                                 <ArrowLeft />
                             </Link>
-                            <Link to={`/design/${nextItem.id}`} className="arrow-right">
+                            <Link to={`/design/${nextItem.id}`} className="arrow-right mx-2 md:mx-0">
                                 <ArrowRight />
                             </Link>
                         </div>
@@ -69,14 +69,14 @@ const DesignDetails = () => {
                             {design.description}
                         </p>
 
-                        <div className="flex justify-between mt-20 mb-10 md:hidden">
+                        {/* <div className="flex justify-between mt-20 mb-10 md:hidden">
                             <Link to={`/design/${previousItem.id}`} className="arrow-left">
                                 <ArrowLeft />
                             </Link>
                             <Link to={`/design/${nextItem.id}`} className="arrow-right">
                                 <ArrowRight />
                             </Link>
-                        </div>
+                        </div> */}
 
                         {/* Ukrywanie na małych ekranach, widoczne na średnich i większych */}
                         <p className="hidden md:block text-left text-base">Details <br /></p>
