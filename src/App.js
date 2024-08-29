@@ -74,9 +74,7 @@ const App = () => {
         
         {/* Dodaj więcej tras w razie potrzeby */}
       </Routes>
-      <footer>
-        The footer
-      </footer>
+      
     </div>
   );
 };

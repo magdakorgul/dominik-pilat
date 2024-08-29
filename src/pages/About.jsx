@@ -8,10 +8,10 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className="about-details">
+    <div className="about-details container">
       <div
         className="grid grid-cols-1 mx-8 mt-4
-            md:grid-cols-2 md:gap-0 md:ml-24 md:mr-24 md:mt-16 md:mb-14 md:mx-32"
+            md:grid-cols-2 md:gap-0 md:ml-24 md:mr-24 md:mt-0 md:mb-14 md:mx-32"
       >
         <div className="max-w-lg">
           <div className="flex justify-center mb-6 md:hidden">
