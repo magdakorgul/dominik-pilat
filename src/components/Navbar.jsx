@@ -19,7 +19,7 @@ const Navbar = ({ backgroundClass }) => {
     <>
       <nav className={`navbar ${backgroundClass} px-4 `}>
         <div className="max-w-screen-xl mx-auto flex items-center justify-between py-6 uppercase md:mx-32">
-          <Link to="/"> <Logo className="w-8 h-8" /></Link>
+          <Link to="/"> <Logo className="w-6 h-6 md:w-8 md:h-8" /></Link>
 
           <button
             onClick={toggleMenu}
