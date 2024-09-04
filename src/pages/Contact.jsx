@@ -7,12 +7,12 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
     return (
-        <div className="contact grid grid-cols-1 gap-4 mt-16 mb-14 mx-8 text-left md:grid-cols-2 md:mx-32">
+        <div className="contact grid grid-cols-1 gap-4 mt-16 mb-0 mx-8 text-left md:grid-cols-2 md:mx-32 md:mb-0">
             <div className="flex flex-col text-left">
                 <div className="flex flex-col items-start justify-start">
                     <h1 className="uppercase text-left font-semibold text-xl">Contact</h1>
                     <form className="w-full md:w-4/5 mt-4">
-                        {/* Pole email */}
+                        
                         <div className="relative z-0 w-full mb-5 group">
                             <input
                                 type="email"
@@ -30,7 +30,7 @@ const Contact = () => {
                             </label>
                         </div>
 
-                        {/* Pole krótkiego tekstu */}
+                       
                         <div className="relative z-0 w-full mb-5 group">
                             <input
                                 type="text"
@@ -48,7 +48,7 @@ const Contact = () => {
                             </label>
                         </div>
 
-                        {/* Pole tekstowe z automatycznym powiększaniem */}
+                        
                         <div className="relative z-0 w-full mb-5 group">
                             <textarea
                                 name="floating_message"
@@ -99,7 +99,7 @@ const Contact = () => {
             </a>
                 </div>
 
-                <div className="flex justify-center md:justify-start items-center space-x-8 mt-44 md:mt-28 mb-6">
+                <div className="flex justify-center md:justify-start items-center space-x-8 mt-44 md:mt-20 mb-6 md:mb-0">
                     <Link to="https://www.behance.net/dominikpilat" target="_blank" className="w-8 h-8">
                         <Behance className="w-full h-full inline-block" />
                     </Link>

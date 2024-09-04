@@ -5,6 +5,7 @@ import { ReactComponent as Behance } from "../assets/behance.svg";
 import { ReactComponent as Instagram } from "../assets/instagram.svg";
 import { ReactComponent as Mail } from "../assets/mail.svg";
 import { ReactComponent as Linkedin } from "../assets/linkedin.svg";
+import {ReactComponent as Logo} from "../assets/logo.svg";
 import { Link } from "react-router-dom";
 
 const Navbar = ({ backgroundClass }) => {
@@ -18,9 +19,7 @@ const Navbar = ({ backgroundClass }) => {
     <>
       <nav className={`navbar ${backgroundClass} px-4 `}>
         <div className="max-w-screen-xl mx-auto flex items-center justify-between py-6 uppercase md:mx-32">
-          <a href="/" className="text-2xl font-semibold whitespace-nowrap text-white">
-            Dominik Piłat
-          </a>
+          <Link to="/"> <Logo className="w-8 h-8" /></Link>
 
           <button
             onClick={toggleMenu}

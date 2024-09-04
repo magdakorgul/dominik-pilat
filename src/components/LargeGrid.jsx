@@ -9,7 +9,7 @@ const LargeGrid = ({items, basePath, showPrice}) => {
     return(
 
         <div className="large-grid grid grid-cols-2 mx-6 gap-x-2
-        md:grid-cols-4 md:gap-x-8 md:gap-1 md:mx-32 md:mt-16 uppercase md:max-w-screen-xl">
+        md:grid-cols-4 md:gap-x-8 md:gap-1 md:mx-32 md:mt-16 md:mb-4 uppercase md:max-w-screen-xl">
             {items.map(item => (
                 <div key={item.id} className="item paintings-card">
                     <Link to={`/${basePath}/${item.id}`} className="no-underline block">

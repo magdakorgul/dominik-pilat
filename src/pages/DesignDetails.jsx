@@ -39,7 +39,7 @@ const DesignDetails = () => {
     return (
         <div className="design-details">
             <div key={design.id} className="item">
-                <div className="grid grid-cols-1 md:grid-cols-2 md:gap-14 md:mx-32 md:mt-16 md:mb-14">
+                <div className="grid grid-cols-1 md:grid-cols-2 md:gap-14 md:mx-32 md:mt-16 md:mb-0">
                     <div className="flex flex-col items-center">
                         <div className="w-11/12 h-11/12 aspect-square overflow-hidden flex items-center justify-center">
                             <img

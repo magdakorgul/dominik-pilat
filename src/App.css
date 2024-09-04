@@ -4,6 +4,7 @@
 
 .bg-paintings{
   background: #c560a2;
+  
 }
 .bg-painting-details{
   background: #c560a2;
@@ -24,6 +25,9 @@
 
 body {
   /* text-transform: uppercase; */
+  /* min-height: 100vh; /* Wysokość minimalna 100% widoku przeglądarki */
+  /* display: flex; /* Flexbox, aby elementy dzieci mogły się odpowiednio rozciągać */
+  /* flex-direction: column; */
   margin: 0 auto;
   padding: 0;
   color: #e6e6e6;

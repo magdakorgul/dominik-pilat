@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className="about-details container">
+    <div className="about-details container md:mb-0">
       <div
         className="grid grid-cols-1 mx-8 mt-4
             md:grid-cols-2 md:gap-0 md:ml-24 md:mr-24 md:mt-0 md:mb-14 md:mx-32"
