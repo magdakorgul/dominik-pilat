@@ -15,7 +15,7 @@ import Contact from './pages/Contact';
 const App = () => {
   const location = useLocation();
 
-  console.log('Current pathname:', location.pathname);
+const hideNavbar = location.pathname.match(/^\/paintings\/\d+$/) || location.pathname.match(/^\/design\/\d+$/);
 
   const getClassForPath = (pathname) => {
     if (pathname === '/paintings') {
@@ -47,7 +47,7 @@ const App = () => {
   };
 
     const currentClass = getClassForPath(location.pathname);
-    console.log('Assigned class:', currentClass); // Dodaj logowanie przypisanej klasy
+    
 
 
 
@@ -61,7 +61,7 @@ const App = () => {
 
   return (
     <div className={`App ${currentClass}`}>     
-      <Navbar backgroundClass={currentClass} />
+      {!hideNavbar && <Navbar backgroundClass={currentClass} />}
      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/paintings" element={<Paintings />}/>

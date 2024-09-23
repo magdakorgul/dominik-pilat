@@ -1,13 +1,20 @@
-import React, { useEffect, useState } from "react";
+ import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import "../../src/App.css"
 import {ReactComponent as ArrowRight} from "../assets/arrow_right.svg";
 import {ReactComponent as ArrowLeft} from "../assets/arrow_left.svg";
+import {ReactComponent as X} from "../assets/x.svg";
+import {useNavigate} from "react-router-dom";
 
 const PaintingDetails = () => {
     const {paintingId} = useParams();
     const [painting, setPainting] = useState(null);
     const [items, setItems] = useState([]);
+    const navigate = useNavigate();
+
+    const handleBackClick = () => {
+        navigate(-1);
+    };
 
 
     useEffect(() => {
@@ -34,7 +41,9 @@ const PaintingDetails = () => {
 
         <div className="painting-details">
             <div key={painting.id} className="item">
-                    
+            <div className="flex justify-end pr-8 mt-8 mb-4 md:pr-16 md:pt-16 md:mt-0" onClick={handleBackClick} style={{ cursor: "pointer" }}>
+                    <X width="24" height="24"  />
+                    </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 md:gap-14 md:mx-32 md:mt-16 md:mb-0"> 
                         {/* gap 14 zamiast 20 - nie zmniejsza sie tak obrazek, do sprawdzenia czy taka odleglosc jest ok */}
                         <div className="flex flex-col items-center">
