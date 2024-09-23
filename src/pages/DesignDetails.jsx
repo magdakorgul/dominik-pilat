@@ -50,9 +50,11 @@ const DesignDetails = () => {
     return (
         <div className="design-details">
             <div key={design.id} className="item">
-                <div className="flex justify-end pr-8 mt-8 mb-4 md:pr-16 md:pt-16 md:mt-0" onClick={handleBackClick} style={{ cursor: "pointer" }}>
+                <Link to="/design">
+                <div className="flex justify-end pr-8 mt-8 mb-4 md:pr-16 md:pt-16 md:mt-0" style={{ cursor: "pointer" }}>
                     <X width="24" height="24"  />
                     </div>
+                    </Link>
                 <div className="grid grid-cols-1 md:grid-cols-2 md:gap-14 md:mx-32 md:mt-16 md:mb-0">
                     <div className="flex flex-col items-center">
                         <div className="w-11/12 h-11/12 aspect-square overflow-hidden flex items-center justify-center">
@@ -64,7 +66,7 @@ const DesignDetails = () => {
                         </div>
 
                         <div
-                            className="flex mt-4 mb-10 md:flex justify-between md:mt-6"
+                            className="flex mt-4 mb-10 md:flex justify-between md:mt-6 md:mb-14"
                             style={{ width: "calc(100% - 44px)" }}
                         >
                             <Link to={`/design/${previousItem.id}`} className="arrow-left mx-2 md:mx-0">
@@ -79,7 +81,7 @@ const DesignDetails = () => {
                         <h1 className="text uppercase text-left text-xl mb-2 mt-0 md:-mt-2 font-semibold md:text-2xl">
                             {design.title}
                         </h1>
-                        <p className="text text-left md:text-base md:mt-4 md:mb-4 leading-tight">
+                        <p className="text text-left mb-20 md:text-base md:mt-4 md:mb-4 leading-tight">
                             {design.description}
                         </p>
 

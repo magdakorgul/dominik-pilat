@@ -72,15 +72,14 @@ const Contact = () => {
                 id="email"
                 value={formData.email}
                 onChange={handleChange}
-                className="block py-2.5 px-0 w-full text-sm text-white placeholder-[#D7C1AF] bg-transparent border-0 border-b-2 border-white appearance-none focus:outline-none focus:ring-0 focus:border-white peer"
-                placeholder=" "
+                className="block py-2.5 px-0 w-full text-base text-white placeholder-[#D7C1AF] bg-transparent border-0 border-b-2 border-white appearance-none focus:outline-none focus:ring-0 focus:border-white peer"
+                placeholder="Your email"
                 required
               />
               <label
                 htmlFor="email"
-                className="peer-focus:font-medium absolute text-sm text-[#D7C1AF] duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0]"
+                className="peer-focus:font-medium absolute text-xl text-[#D7C1AF] duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0]"
               >
-                Your email
               </label>
             </div>
 
@@ -92,15 +91,15 @@ const Contact = () => {
                 id="subject"
                 value={formData.subject}
                 onChange={handleChange}
-                className="block py-2.5 px-0 w-full text-sm text-white placeholder-[#D7C1AF] bg-transparent border-0 border-b-2 border-white appearance-none focus:outline-none focus:ring-0 focus:border-white peer"
-                placeholder=" "
+                className="block py-2.5 px-0 w-full text-base text-white placeholder-[#D7C1AF] bg-transparent border-0 border-b-2 border-white appearance-none focus:outline-none focus:ring-0 focus:border-white peer"
+                placeholder="How can I help you?"
                 required
               />
               <label
                 htmlFor="subject"
-                className="peer-focus:font-medium absolute text-sm text-[#D7C1AF] duration-300 transform -translate-y-4 scale-90 top-3 -z-10 origin-[0]"
+                className="peer-focus:font-medium absolute text-base text-[#D7C1AF] duration-300 transform -translate-y-4 scale-90 top-3 -z-10 origin-[0]"
               >
-                How can I help you?
+                
               </label>
             </div>
 
@@ -112,8 +111,8 @@ const Contact = () => {
                 value={formData.message}
                 onChange={handleChange}
                 rows="1"
-                className="block py-2.5 px-0 w-full text-sm text-white placeholder-[#D7C1AF] bg-transparent border-0 border-b-2 border-white appearance-none focus:outline-none focus:ring-0 focus:border-white peer resize-none overflow-hidden"
-                placeholder=" "
+                className="block py-2.5 px-0 w-full text-base text-white placeholder-[#D7C1AF] bg-transparent border-0 border-b-2 border-white appearance-none focus:outline-none focus:ring-0 focus:border-white peer resize-none overflow-hidden"
+                placeholder="Your message"
                 required
                 onInput={(e) => {
                   e.target.style.height = "auto";
@@ -122,9 +121,9 @@ const Contact = () => {
               />
               <label
                 htmlFor="message"
-                className="peer-focus:font-medium absolute text-sm text-[#D7C1AF] duration-300 transform -translate-y-4 scale-90 top-3 -z-10 origin-[0]"
+                className="peer-focus:font-medium absolute text-base text-[#D7C1AF] duration-300 transform -translate-y-4 scale-90 top-3 -z-10 origin-[0]"
               >
-                Your message
+                
               </label>
             </div>
 

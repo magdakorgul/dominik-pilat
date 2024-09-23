@@ -2,25 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-paintings{
-  background: #c560a2;
-  
-}
-.bg-painting-details{
-  background: #c560a2;
+.App{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-.bg-design {
-  background: #5c7c57; 
+body .bg-paintings{
+  background-color: #c560a2;
+  
+}
+body .bg-painting-details{
+  background-color: #c560a2;
+}
+
+body .bg-design {
+  background-color: #5c7c57; 
 } 
-.bg-about{
-  background: #80543f;
+body .bg-about{
+  background-color: #80543f;
 }
-.bg-contact{
-  background: #cc7225;
+body .bg-contact{
+  background-color: #cc7225;
 }
-.bg-home{
-  background: #6193c5;
+body .bg-home{
+  background-color: #6193c5;
+}
+
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -28,11 +40,10 @@ body {
   /* min-height: 100vh; /* Wysokość minimalna 100% widoku przeglądarki */
   /* display: flex; /* Flexbox, aby elementy dzieci mogły się odpowiednio rozciągać */
   /* flex-direction: column; */
-  margin: 0 auto;
-  padding: 0;
+  
   color: #e6e6e6;
   font-family: "Manrope", sans-serif;
-  background: #5c7c57;
+  /* background: #5c7c57; */
   
 }
 

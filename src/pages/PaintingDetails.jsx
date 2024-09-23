@@ -41,9 +41,11 @@ const PaintingDetails = () => {
 
         <div className="painting-details">
             <div key={painting.id} className="item">
-            <div className="flex justify-end pr-8 mt-8 mb-4 md:pr-16 md:pt-16 md:mt-0" onClick={handleBackClick} style={{ cursor: "pointer" }}>
+                <Link to="/paintings">
+            <div className="flex justify-end pr-8 mt-8 mb-4 md:pr-16 md:pt-16 md:mt-0" style={{ cursor: "pointer" }}>
                     <X width="24" height="24"  />
                     </div>
+                    </Link>
                     <div className="grid grid-cols-1 md:grid-cols-2 md:gap-14 md:mx-32 md:mt-16 md:mb-0"> 
                         {/* gap 14 zamiast 20 - nie zmniejsza sie tak obrazek, do sprawdzenia czy taka odleglosc jest ok */}
                         <div className="flex flex-col items-center">
@@ -54,7 +56,7 @@ const PaintingDetails = () => {
                         className="w-11/12 h-11/12 md:object-cover md:w-full md:h-full" />
                         </div>
 
-                        <div className="flex mt-4 mb-4 md:flex justify-between md:mt-6 md:mb-8" 
+                        <div className="flex mt-4 mb-4 md:flex justify-between md:mt-6 md:mb-14" 
                         style={{ width: 'calc(100% - 44px)' }}>
                         <Link to={`/paintings/${previousItem.id}`} className="arrow-left mx-2 md:mx-0">
                                 <ArrowLeft />
@@ -72,9 +74,11 @@ const PaintingDetails = () => {
                     <p className="text text-left text-base mt-4 md:mt-4 mb-4 leading-tight">{painting.description}</p>
 
                     {painting.price !== "sold" && (
+                        <Link to="/contact">
                     <button type="button" className="inline-flex items-center justify-center rounded-md bg-white hover:bg-gray-100 text-black py-2 px-4 mt-4 mb-4 md:mb-8 w-full h-12">
                     Ask to buy
                     </button>
+                    </Link>
                     )}
 
                     <p className="text text-left text-base mb-1 font-semibold mt-4 md:mt-0">Details <br /></p>

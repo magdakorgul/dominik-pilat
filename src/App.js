@@ -1,4 +1,5 @@
 import { Routes, Route, useLocation } from 'react-router-dom';
+import {useEffect} from 'react';
 import './App.css';
 import Paintings from './pages/Paintings';
 import PaintingDetails from './pages/PaintingDetails';
@@ -15,38 +16,37 @@ import Contact from './pages/Contact';
 const App = () => {
   const location = useLocation();
 
+ 
+
 const hideNavbar = location.pathname.match(/^\/paintings\/\d+$/) || location.pathname.match(/^\/design\/\d+$/);
 
-  const getClassForPath = (pathname) => {
-    if (pathname === '/paintings') {
-      return 'bg-paintings';
-    } else if (pathname === '/design') {
-      return 'bg-design';
-    }
-    else if (pathname.startsWith('/design/')) {
-      return 'bg-design';
-    }
-    else if (pathname === '/') {
-      return 'bg-home';
-    }
-    else if (pathname.startsWith('/design/')) {  // Dodaj tutaj
-      return 'bg-design';
-    }
-    else if (pathname.match(/^\/paintings\/\d+$/)) { // bardziej precyzyjne sprawdzenie dynamicznej ścieżki
-      return 'bg-painting-details';
-    }
-    else if (pathname === '/about') {
-      return 'bg-about';
-    } 
-    else if (pathname === '/contact') {
-      return 'bg-contact';
-    }
-    else {
-      return '';
-    }
-  };
+const getClassForPath = (pathname) => {
+  if (pathname === '/') {
+    return 'bg-home';
+  } else if (pathname.startsWith('/paintings/')) {
+    return 'bg-painting-details';
+  } else if (pathname.startsWith('/paintings')) {
+    return 'bg-paintings';
+  } else if (pathname.startsWith('/design/')) {
+    return 'bg-design';
+  } else if (pathname.startsWith('/design')) {
+    return 'bg-design';
+  } else if (pathname === '/about') {
+    return 'bg-about';
+  } else if (pathname === '/contact') {
+    return 'bg-contact';
+  } else {
+    return '';
+  }
+};
 
-    const currentClass = getClassForPath(location.pathname);
+
+const currentClass = getClassForPath(location.pathname);
+
+
+useEffect(() => {
+  document.body.className = currentClass;
+}, [currentClass]);
     
 
 
