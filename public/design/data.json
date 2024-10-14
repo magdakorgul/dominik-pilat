@@ -1,74 +1,78 @@
 [
     {
       "id": 1,
-      "title": "Design 1",
+      "title": "Bar",
       "imageUrl": "bar.png",
-      "description": "Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
+      "description": "\"Bar\" captures a feeling of calm and leisurely indulgence. Using bold geometric shapes and a vibrant color palette, the piece creates a sense of relaxation and escape from the everyday. The reclining figure with a wine glass in hand suggests a moment of self-care and pause, while the mix of red, pink, and white brings warmth and comfort. The combination of sharp lines and gentle curves adds a touch of tension, highlighting the balance between stillness and subtle energy. This piece invites the viewer to experience both peace and reflection, offering a glimpse into a serene, unhurried moment.",
       "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
 
     },
     {
       "id": 2,
-      "title": "Design 2",
+      "title": "Bird",
       "imageUrl": "bird.png",
-      "description": "Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
+      "description": "In \"Bird\", a sense of curiosity and subtle strength emerges through bold, geometric abstraction. The figure of a bird, perched atop a boot, is rendered in striking black and grey tones, creating a visual tension between softness and structure. The contrast between the bird's delicate form and the sturdy boot suggests themes of freedom and grounding, movement and stillness. The minimalist design and sharp lines invite the viewer to explore the balance between these opposing forces, leaving space for reflection on the interplay of fragility and resilience in nature and in life.",
       "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
 
     },
     {
       "id": 3,
-      "title": "Design 3",
+      "title": "Car",
       "imageUrl": "car.png",
-      "description":"Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
+      "description":"\"Car\" is all about those fun, carefree moments on the road, where the world passes by and you're just enjoying the ride. It’s the thrill of hopping into a car, whether for a long drive or a quick escape, that makes any journey feel like an adventure. With its playful colors and simple shapes, this piece captures the joy of being on the move and the little freedom that comes with every drive. It’s a reminder that sometimes, the best memories are made while cruising with nowhere to be.",
       "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
     },
     {
       "id": 4,
-      "title": "Design 4",
+      "title": "Cat lady",
       "imageUrl": "cat_lady.png",
-      "description":"Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
+      "description":"\"Cat Lady\" brings a sense of quiet mystery, capturing the bond between a woman and her watchful companion. Set against a warm orange background, there’s an underlying tension in the stillness, as if something is about to unfold. The cat’s sharp gaze draws you in, inviting curiosity and making you wonder what it sees. With its minimalist forms and contrasting tones, this piece evokes a feeling of calm mixed with anticipation, hinting at stories yet to be told.",
       "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
     },
     {
         "id": 5,
-        "title": "Design 5",
+        "title": "Dunkle choc",
         "imageUrl": "dunkle_choc.png",
-        "description":"Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
+        "description":"This design features three distinct chocolate bar packages, each representing a unique flavor. The geometric layout showcases rectangular sections arranged to create a modern chocolate bar appearance. The brand name is prominently displayed in the top-left corner, while the product type is clearly positioned in the top-right for easy identification. Each flavor is differentiated by color: rich brown for Edelbitter, fresh green for Alpenvollmilch Haselnuss, and deep blue for Alpenvollmilch Premium. This vibrant color scheme adds a playful touch, inviting chocolate lovers to explore the distinct taste experiences each package offers",
       "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
       },
       {
         "id": 6,
-        "title": "Design 6",
+        "title": "Girl 4",
         "imageUrl": "girl_4.png",
-        "description":"Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
+        "description":"In \"Girl 4\", the viewer is met with a captivating representation of femininity and movement. The bright red backdrop provides a striking contrast to the woman's pink skin and white hair, drawing attention to her fluid posture. Slightly tilted to the right, her hair appears to flutter, suggesting a moment caught in time. The minimalist approach invites the viewer to explore the beauty of her form, evoking a feeling of strength and grace in this abstract portrayal of femininity.",
       "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
       },
       {
         "id": 7,
-        "title": "Design 7",
+        "title": "HBF",
         "imageUrl": "hbf.png",
-        "description":"Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
+        "description":"In \"HBF\", the energy of a train station comes alive, reflecting the excitement and tension of travel. The artwork encapsulates a moment brimming with potential, where the passage of time influences the flow of human connection. The vibrant colors and geometric forms create an engaging environment, inviting viewers to reflect on their own experiences of movement and transition. This piece speaks to the thrill of embarking on new adventures while acknowledging the poignant moments of waiting and anticipation that define our journeys.",
       "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
       },
       {
         "id": 8,
-        "title": "Design 1",
-        "imageUrl": "heatwave.png"
+        "title": "Heatwave",
+        "imageUrl": "heatwave.png",
+        "description":"In \"Heatwave\", the artwork presents a compelling vision of a future influenced by climate change, capturing the complex interplay between leisure and environmental reality. The dynamic composition evokes a sense of immediacy and urgency, inviting viewers to reflect on their own experiences in an evolving world. With its bold colors and geometric shapes, the piece communicates the tension between comfort and the pressing challenges of a warming planet. This artwork serves as a critical reminder of the environmental changes that shape our lives and the need for collective action in the face of uncertainty."
       },
       {
         "id": 9,
-        "title": "Design 2",
-        "imageUrl": "house_life.png"
+        "title": "House Life",
+        "imageUrl": "house_life.png",
+        "description":"\"House Life\" invites viewers into a tranquil domestic scene, capturing the essence of home through an interplay of nature and companionship. The artwork exudes a sense of harmony, encouraging contemplation on the intimate relationships we cultivate within our living spaces. The composition highlights the beauty of everyday life, inviting reflection on the subtle connections we share with the elements of our environment and the quiet joys that enrich our daily experiences."
       },
       {
         "id": 10,
-        "title": "Design 3",
-        "imageUrl": "innsbruck_tyrol.png"
+        "title": "Kafe 2",
+        "imageUrl": "innsbruck_tyrol.png",
+        "description":"\"Kafe 2\" captures a contemplative moment, embodying the essence of leisure and reflection. The scene conveys the simple pleasure of pausing to read, emphasizing the joy found in quiet solitude. A sense of comfort and familiarity permeates the composition, reminding us of the value of taking time for oneself and celebrating the small rituals that enrich daily life."
       },
       {
         "id": 11,
-        "title": "Design 4",
-        "imageUrl": "kafe_2.png"
+        "title": "Kafe 3",
+        "imageUrl": "kafe_2.png",
+        "description":"\"Kafe 3\" presents a lively glimpse into the heart of a coffee shop, capturing the bustling environment that invites relaxation and connection. The snapshot conveys the essence of the daily routine, where the simple act of enjoying coffee becomes a meaningful experience. This piece highlights the beauty of everyday life, emphasizing the importance of community and the warmth that comes from shared moments in a beloved gathering place."
       },
       {
           "id": 12,
@@ -82,46 +86,47 @@
         },
         {
           "id": 14,
-          "title": "Design 7",
-          "imageUrl": "lars_realestate.png"
+          "title": "Lars",
+          "imageUrl": "lars_realestate.png",
+          "description":"This artwork embodies the excitement and anticipation that come with the search for a new home. It captures the essence of exploration, where every potential door opens to new possibilities and experiences. There’s a sense of warmth and welcome, evoking feelings of belonging and comfort. This piece serves as a reminder that the journey of finding a home is not just about the destination, but also about the connections made along the way."
         },
         {
           "id": 15,
-          "title": "Design 1",
+          "title": "LED",
           "imageUrl": "LED_poster.png",
-          "description": "Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
+          "description": "In \"Liberté, égalité, durabilité\", the white pigeon takes center stage, a symbol of peace amid a colorful landscape. Each hue plays a significant role: the green represents our responsibility to the environment, urging us to live harmoniously with nature. Orange speaks to our social connections, reminding us that sustainability is about community and support. Red, representing economic stability, serves as a reminder that financial health is also part of the equation. The blue backdrop hints at a hopeful future, suggesting that if we embrace these values, we can create a sustainable world for everyone.",
           "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
     
         },
         {
           "id": 16,
-          "title": "Design 1",
+          "title": "Person 1",
           "imageUrl": "person_1.png",
-          "description": "Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
+          "description": "This work evokes the essence of quiet introspection, where time slows down and a sense of calm washes over everything. The stillness invites a deep breath, a moment to gather one's thoughts and find inner peace. It is a reminder of the quiet beauty found in solitude.",
           "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
     
         },
         {
           "id": 17,
-          "title": "Design 1",
+          "title": "Summer",
           "imageUrl": "summer_1.png",
-          "description": "Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
+          "description": "A celebration of the carefree nature of summer, this piece reflects the quiet joy of being fully immersed in a moment of rest. The atmosphere is one of lightness and comfort, where nothing else matters but the peaceful feeling of the present. It captures the softness of time slowing down.",
           "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
     
         },
         {
           "id": 18,
-          "title": "Design 1",
+          "title": "Surf",
           "imageUrl": "surf.png",
-          "description": "Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
+          "description": "This piece conveys the electric anticipation that surges through those final moments before stepping into the water. It’s filled with the spirit of adventure, where excitement mingles with the unknown. Each wave carries the promise of a thrilling journey, a chance to embrace the new and uncharted.",
           "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
     
         },
         {
           "id": 19,
-          "title": "Design 1",
+          "title": "Swim",
           "imageUrl": "swim_2.png",
-          "description": "Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
+          "description": "This poster captures the quiet anticipation just before slipping into the cool embrace of the water. It speaks to the carefree moments of a summer escape, where time slows and the world feels weightless. Beneath the surface lies the promise of relaxation and a sense of playful adventure, waiting to unfold.",
           "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
     
         },
@@ -135,17 +140,17 @@
         },
         {
           "id": 21,
-          "title": "Design 1",
+          "title": "To the lighthouse",
           "imageUrl": "to_the_lighthouse.png",
-          "description": "Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
+          "description": "This cover encapsulates the themes of longing and illumination found within Virginia Woolf's To the Lighthouse. It reflects the search for connection and understanding amidst the complexities of human relationships, where the lighthouse serves as a guiding beacon through the fog of uncertainty. The solitary figure within the light symbolizes the pursuit of clarity and insight, emphasizing the interplay between isolation and the desire for belonging, as well as the transformative power of time and memory in shaping our experiences.",
           "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
     
         },
         {
           "id": 22,
-          "title": "Design 1",
+          "title": "Vacation",
           "imageUrl": "vacation.png",
-          "description": "Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
+          "description": "This piece embodies the carefree spirit of sun-drenched days on an island, where adventure and relaxation dance together. It captures the essence of vacation, celebrating the joy that comes from embracing freedom and the thrill of taking risks. The tranquil waves beckon with whispers of exploration, inviting a leap into the blissful unknown, where every moment offers the chance to discover something new.",
           "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
     
         },

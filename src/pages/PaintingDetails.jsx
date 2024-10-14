@@ -75,7 +75,7 @@ const PaintingDetails = () => {
 
                     {painting.price !== "sold" && (
                         <Link to="/contact">
-                    <button type="button" className="inline-flex items-center justify-center rounded-md bg-white hover:bg-gray-100 text-black py-2 px-4 mt-4 mb-4 md:mb-8 w-full h-12">
+                    <button type="button" className="inline-flex items-center justify-center rounded-md text-base md:text-sm bg-white hover:bg-gray-100 text-black py-2 px-4 mt-4 mb-4 md:mb-8 w-full h-12">
                     Ask to buy
                     </button>
                     </Link>

@@ -79,7 +79,7 @@ const Navbar = ({ backgroundClass }) => {
               </svg>
             </button>
 
-            <ul className="flex flex-col justify-items-end w-full h-full p-4 mt-4 text-center space-y-8 md:flex-row md:space-x-6 md:mt-0 md:space-y-0 md:p-0">
+            <ul className="flex flex-col justify-items-end w-full h-full p-4 mt-44 text-center space-y-8 md:flex-row md:space-x-6 md:mt-0 md:space-y-0 md:p-0">
               <li>
                 <NavLink
                   to="/design"

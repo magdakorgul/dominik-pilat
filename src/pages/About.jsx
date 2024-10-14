@@ -11,7 +11,7 @@ const About = () => {
     <div className="about-details container md:mb-0">
       <div
         className="grid grid-cols-1 mx-8 mt-4
-            md:grid-cols-2 md:gap-0 md:ml-24 md:mr-24 md:mt-0 md:mb-14 md:mx-32"
+            md:grid-cols-2 md:gap-0 md:ml-24 md:mr-24 md:mt-0 md:mb-14 md:mx-32a"
       >
         <div className="max-w-lg">
           <div className="flex justify-center mb-6 md:hidden">
@@ -25,18 +25,16 @@ const About = () => {
             Dominik Pilat
           </h1>
           <p className="text-left text-base mt-8 mb-4 leading-tight">
-            Mauris id augue eu ligula mollis convallis nec at ligula. Praesent
-            pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante
-            ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-            curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa
-            ultrices nibh, at commodo mauris libero vitae mauris.
+          I’m a Berlin-based artist, and my work explores the power of geometric abstraction. 
+          Using bold, clean lines and vibrant color contrasts, I create visual compositions that balance simplicity with depth. 
+          Inspired by modernist traditions, my paintings often feature overlapping forms and minimalist palettes, 
+          exploring balance and tension within each piece. 
+
             <br />
             <br />
-            Mauris id augue eu ligula mollis convallis nec at ligula. Praesent
-            pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante
-            ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-            curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa
-            ultrices nibh, at commodo mauris libero vitae mauris.
+            I primarily work with acrylic on canvas, 
+          blending sharp angles and soft curves to invite viewers into an exploration of form and space. 
+          My art reflects a refined yet playful approach to abstraction, offering a fresh, contemporary perspective on geometric painting.
             <br />
             <br />
             <p className="font-bold text-left mb-1">Enquiries</p>

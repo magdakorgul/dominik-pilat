@@ -81,3 +81,9 @@ useEffect(() => {
 
 
 export default App;
+
+
+//do poprawy:
+//- wyswietlanie large grid na malych i srednich ekranach
+//- wyswietlanie menu na mobile
+//- sprawdzenie margin bocznych na mobile
