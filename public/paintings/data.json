@@ -1,8 +1,8 @@
 [
     {
       "id": 1,
-      "title": "Obraz 1",
-      "imageUrl": "https://images.unsplash.com/photo-1531913764164-f85c52e6e654?q=80&w=2834&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Boat",
+      "imageUrl":"boat.jpeg",
       "price": 1000,
       "description": "Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
       "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
@@ -10,8 +10,8 @@
     },
     {
       "id": 2,
-      "title": "Obraz 2",
-      "imageUrl": "https://images.unsplash.com/photo-1515405295579-ba7b45403062?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBhaW50aW5nfGVufDB8fDB8fHww",
+      "title": "Car",
+      "imageUrl":"car.jpg",
       "price": 1200,
       "description":"Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
       "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
@@ -19,58 +19,61 @@
     },
     {
       "id": 3,
-      "title": "Obraz 3",
-      "imageUrl": "https://images.unsplash.com/flagged/photo-1567934150921-7632371abb32?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fHBhaW50aW5nfGVufDB8fDB8fHww",
+      "title": "Dinner 2",
+      "imageUrl":"dinner2.jpg",
       "price": "sold",
       "description":"Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
       "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
     },
     {
       "id": 4,
-      "title": "Obraz 4",
-      "imageUrl": "https://images.unsplash.com/photo-1531489956451-20957fab52f2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHBhaW50aW5nfGVufDB8fDB8fHww",
+      "title": "Girl 1",
+      "imageUrl":"girl_1.jpeg",
       "price": "sold",
       "description":"Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
       "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
     },
     {
         "id": 5,
-        "title": "Obraz 5",
-        "imageUrl": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8fHBhaW50aW5nfGVufDB8fDB8fHww",
+        "title": "Girl 2",
+        "imageUrl":"girl_2.jpeg",
         "price": 800,
         "description":"Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
       "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
       },
       {
         "id": 6,
-        "title": "Obraz 6",
-        "imageUrl": "https://images.unsplash.com/photo-1519985176271-adb1088fa94c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8fHBhaW50aW5nfGVufDB8fDB8fHww",
+        "title": "Kiss",
+        "imageUrl":"kiss.jpg",
         "price": "sold",
         "description":"Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
       "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
       },
       {
         "id": 7,
-        "title": "Obraz 7",
-        "imageUrl": "https://images.unsplash.com/photo-1593642634367-d91a135587b5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8fHBhaW50aW5nfGVufDB8fDB8fHww",
+        "title": "Lamp",
+        "imageUrl":"lamp.jpg",
         "price": "sold",
         "description":"Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
       "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
       },
       {
         "id": 8,
-        "title": "Obraz 1",
-        "imageUrl": "https://images.unsplash.com/photo-1531913764164-f85c52e6e654?q=80&w=2834&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "title": "Mit karte bitte",
+        "imageUrl":"mit_karte_bitte.jpg",
+        "price": "sold"
       },
       {
         "id": 9,
-        "title": "Obraz 2",
-        "imageUrl": "https://images.unsplash.com/photo-1515405295579-ba7b45403062?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBhaW50aW5nfGVufDB8fDB8fHww"
+        "title": "Person 1",
+        "imageUrl":"person_1.jpg",
+        "price": "sold"
       },
       {
         "id": 10,
-        "title": "Obraz 3",
-        "imageUrl": "https://images.unsplash.com/flagged/photo-1567934150921-7632371abb32?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fHBhaW50aW5nfGVufDB8fDB8fHww"
+        "title": "Window",
+        "imageUrl":"window.jpg",
+        "price": "sold"
       },
       {
         "id": 11,
