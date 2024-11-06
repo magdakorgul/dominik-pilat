@@ -1,24 +1,32 @@
-import "../../src/App.css"
+import "../../src/App.css";
 import React from "react";
-import {ReactComponent as Kwiaty} from "../assets/kwiaty.svg";
-import {ReactComponent as KwiatMobile} from "../assets/kwiatmobile.svg";
+import { ReactComponent as Main } from "../assets/Group 26.svg";
+import { ReactComponent as MainMobileTop } from "../assets/Group 29.svg";
+import { ReactComponent as MainMobileBottom } from "../assets/Group 28.svg";
 
 const Home = () => {
     return (
-        <div className="relative h-screen w-full flex justify-center items-center">
-            <div className="hidden md:block absolute top-0 left-0 w-full h-full">
-            <Kwiaty className="w-full h-full object-cover z-0" />
+        <div className="relative h-screen w-full flex flex-col justify-center items-center md:mt-0 overflow-hidden -translate-y-12">
+            {/* Kontener grafiki na dużych ekranach */}
+            <div className="absolute inset-0 justify-center items-center hidden md:flex">
+                <Main className="w-11/12 h-11/12 object-contain z-0" /> 
             </div>
 
-            <div className="block md:hidden absolute top-0 left-0 w-full h-full">
-            <KwiatMobile className="w-full h-full object-cover z-0" />
+            {/* Kontener grafiki na urządzeniach mobilnych */}
+            <div className="md:hidden w-full flex justify-center top-8">
+                <MainMobileTop className="w-11/12 h-11/12 object-contain" />
             </div>
-            
-           
-            <div className="relative z-10 text-center text-white mx-4 md:mx-0">
-                <h1 className="text-lg md:text-xl font-normal mb-1 uppercase mt-28 md:mt-36">Dominik Piłat</h1>
-                <h2 className="text-2xl md:text-4xl font-medium mb-1 md:max-w-lg">artist, creative, artichoke enthusiast</h2>
+
+            {/* Kontener tekstu */}
+            <div className="relative z-10 text-center text-white mx-4 md:mx-0 mt-8 flex flex-col items-center">
+                <h1 className="text-lg md:text-xl font-normal mb-1 uppercase">Dominik Piłat</h1>
+                <h2 className="text-2xl md:text-4xl font-medium mb-1 md:max-w-lg">artist, designer, artichoke enthusiast</h2>
                 <p className="text-md md:text-xl font-normal">Your favorite creative living in Berlin.</p>
+            </div>
+
+            {/* Grafika pod napisem na urządzeniach mobilnych */}
+            <div className="md:hidden w-full flex justify-center mt-8">
+                <MainMobileBottom className="w-11/12 h-11/12 object-contain" />
             </div>
         </div>
     );

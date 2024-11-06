@@ -18,7 +18,7 @@ const Navbar = ({ backgroundClass }) => {
   return (
     <>
       <nav className={`navbar ${backgroundClass} px-4 `}>
-        <div className="max-w-screen-xl mx-auto flex items-center justify-between py-6 uppercase md:mx-32">
+        <div className="max-w-screen-xl mx-auto flex items-center justify-between py-6 uppercase md:mx-32 md:mb-0">
           <Link to="/"> <Logo className="w-6 h-6 md:w-8 md:h-8" /></Link>
 
           <button
