@@ -17,14 +17,15 @@ const Navbar = ({ backgroundClass }) => {
 
   return (
     <>
-      <nav className={`navbar ${backgroundClass} px-4 `}>
-        <div className="max-w-screen-xl mx-auto flex items-center justify-between py-6 uppercase md:mx-32 md:mb-0">
-          <Link to="/"> <Logo className="w-6 h-6 md:w-8 md:h-8" /></Link>
-
+      <nav className={`navbar ${backgroundClass} px-4`}>
+  <div className="w-full flex items-center justify-between py-6 uppercase pl-4 pr-4 lg:pl-20 lg:pr-20">
+    <Link to="/"> 
+      <Logo className="w-6 h-6 lg:w-8 lg:h-8" />
+    </Link>
           <button
             onClick={toggleMenu}
             type="button"
-            className="inline-flex items-center p-2 text-sm text-white rounded-lg md:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-600 flex-shrink-0 ml-auto"
+            className="inline-flex items-center p-2 text-sm text-white rounded-lg lg:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-600 flex-shrink-0 ml-auto"
             aria-controls="navbar-default"
             aria-expanded={isMenuOpen}
           >
@@ -57,7 +58,7 @@ const Navbar = ({ backgroundClass }) => {
           <div
   className={`${
     isMenuOpen ? "block fixed inset-0 z-50" : "hidden"
-  } md:flex md:items-center md:w-auto flex-col justify-center ${backgroundClass} md:relative md:bg-transparent md:z-auto`}
+  } lg:flex lg:items-center lg:w-auto flex-col justify-center ${backgroundClass} lg:relative lg:bg-transparent lg:z-auto`}
   id="navbar-default"
 >
 
@@ -65,7 +66,7 @@ const Navbar = ({ backgroundClass }) => {
 
             <button
               onClick={toggleMenu}
-              className="absolute top-4 right-4 text-white hover:text-gray-400 focus:outline-none md:hidden"
+              className="absolute top-4 right-4 text-white hover:text-gray-400 focus:outline-none lg:hidden"
             >
               <svg
                 className="w-6 h-6"
@@ -79,12 +80,12 @@ const Navbar = ({ backgroundClass }) => {
               </svg>
             </button>
 
-            <ul className="flex flex-col justify-items-end w-full h-full p-4 mt-44 text-center space-y-8 md:flex-row md:space-x-6 md:mt-0 md:space-y-0 md:p-0">
+            <ul className="flex flex-col justify-items-end w-full h-full p-4 mt-44 text-center space-y-8 lg:flex-row lg:space-x-6 lg:mt-0 lg:space-y-0 lg:p-0">
               <li>
                 <NavLink
                   to="/design"
                   className={({ isActive }) =>
-                    `block text-white text-3xl md:text-base ${
+                    `block text-white text-3xl lg:text-base ${
                       isActive ? "underline" : ""
                     } hover:text-gray-400`
                   }
@@ -97,7 +98,7 @@ const Navbar = ({ backgroundClass }) => {
                 <NavLink
                   to="/paintings"
                   className={({ isActive }) =>
-                    `block text-white text-3xl md:text-base ${
+                    `block text-white text-3xl lg:text-base ${
                       isActive ? "underline" : ""
                     } hover:text-gray-400`
                   }
@@ -123,7 +124,7 @@ const Navbar = ({ backgroundClass }) => {
                 <NavLink
                   to="/about"
                   className={({ isActive }) =>
-                    `block text-white text-3xl md:text-base ${
+                    `block text-white text-3xl lg:text-base ${
                       isActive ? "underline" : ""
                     } hover:text-gray-400`
                   }
@@ -136,7 +137,7 @@ const Navbar = ({ backgroundClass }) => {
                 <NavLink
                   to="/contact"
                   className={({ isActive }) =>
-                    `block text-white text-3xl md:text-base ${
+                    `block text-white text-3xl lg:text-base ${
                       isActive ? "underline" : ""
                     } hover:text-gray-400`
                   }
@@ -148,7 +149,7 @@ const Navbar = ({ backgroundClass }) => {
             </ul>
 
             {/* Ikony mediów społecznościowych */}
-            <div className="absolute bottom-8 left-0 right-0 flex justify-center items-center space-x-8 md:hidden">
+            <div className="absolute bottom-8 left-0 right-0 flex justify-center items-center space-x-8 lg:hidden">
               <Link to="https://www.behance.net/dominikpilat" target="_blank" className="w-8 h-8">
                 <Behance className="w-full h-full inline-block"/>
               </Link>
