@@ -65,25 +65,15 @@
       {
         "id": 10,
         "title": "Kafe 2",
-        "imageUrl": "innsbruck_tyrol.png",
+        "imageUrl": "kafe_2.png",
         "description":"\"Kafe 2\" captures a contemplative moment, embodying the essence of leisure and reflection. The scene conveys the simple pleasure of pausing to read, emphasizing the joy found in quiet solitude. A sense of comfort and familiarity permeates the composition, reminding us of the value of taking time for oneself and celebrating the small rituals that enrich daily life."
       },
       {
         "id": 11,
         "title": "Kafe 3",
-        "imageUrl": "kafe_2.png",
+        "imageUrl": "kafe_3.png",
         "description":"\"Kafe 3\" presents a lively glimpse into the heart of a coffee shop, capturing the bustling environment that invites relaxation and connection. The snapshot conveys the essence of the daily routine, where the simple act of enjoying coffee becomes a meaningful experience. This piece highlights the beauty of everyday life, emphasizing the importance of community and the warmth that comes from shared moments in a beloved gathering place."
       },
-      {
-          "id": 12,
-          "title": "Design 5",
-          "imageUrl": "kafe_3_1.png"
-        },
-        {
-          "id": 13,
-          "title": "Design 6",
-          "imageUrl": "kafe_3.png"
-        },
         {
           "id": 14,
           "title": "Lars",
@@ -131,14 +121,6 @@
     
         },
         {
-          "id": 20,
-          "title": "Design 1",
-          "imageUrl": "swim.png",
-          "description": "Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
-          "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
-    
-        },
-        {
           "id": 21,
           "title": "To the lighthouse",
           "imageUrl": "to_the_lighthouse.png",
@@ -151,14 +133,6 @@
           "title": "Vacation",
           "imageUrl": "vacation.png",
           "description": "This piece embodies the carefree spirit of sun-drenched days on an island, where adventure and relaxation dance together. It captures the essence of vacation, celebrating the joy that comes from embracing freedom and the thrill of taking risks. The tranquil waves beckon with whispers of exploration, inviting a leap into the blissful unknown, where every moment offers the chance to discover something new.",
-          "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
-    
-        },
-        {
-          "id": 23,
-          "title": "Design 1",
-          "imageUrl": "watch_cover.png",
-          "description": "Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
           "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
     
         }

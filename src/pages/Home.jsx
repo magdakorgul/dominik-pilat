@@ -22,7 +22,7 @@ const Home = () => {
                 <h1 className="text-lg lg:text-xl font-normal mb-1 uppercase">Dominik Piłat</h1>
                 <h2 className="text-2xl lg:text-4xl font-medium mb-1 lg:max-w-lg">
     artist, designer, <span className="sm:block whitespace-nowrap">artichoke enthusiast</span></h2>
-                <p className="text-md lg:text-xl font-normal">Your favorite creative living in Berlin.</p>
+                <p className="text-md lg:text-xl font-normal">Your favorite creative living in Berlin</p>
             </div>
 
             {/* Grafika pod napisem na urządzeniach mobilnych */}

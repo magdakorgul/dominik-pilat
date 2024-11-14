@@ -16,7 +16,7 @@ const About = () => {
         <div className="max-w-lg">
           <div className="flex justify-center mb-6 md:hidden">
             <img
-              src="https://ralfvanveen.com/wp-content/uploads/2021/06/Placeholder-_-Glossary.svg"
+              src="/IMG_0209.jpg"
               alt="dominik"
               className="max-w-full h-auto"
             />
@@ -79,9 +79,9 @@ const About = () => {
         {/* Zmiana justify-center na text-left dla wyrownania obrazka */}
         <div className="hidden md:flex md:items-start md:mb-0 md:ml-24 md:mr-24">
           <img
-            src="https://ralfvanveen.com/wp-content/uploads/2021/06/Placeholder-_-Glossary.svg"
+            src="/IMG_0209.jpg"
             alt="dominik"
-            className="w-fit h-auto md:max-w-none"
+            className="w-full max-w-xs h-auto md:max-w-none"
           />
         </div>
       </div>

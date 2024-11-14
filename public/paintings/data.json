@@ -4,8 +4,8 @@
       "title": "Boat",
       "imageUrl":"boat.jpeg",
       "price": 1000,
-      "description": "Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
-      "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
+      "description": "This piece evokes the feeling of floating between freedom and safety, like drifting on open water with the quiet assurance of being anchored. There's a sense of boundless exploration, where the vastness brings both calm and exhilaration, while the presence of protection offers quiet comfort amidst the adventure.",
+      "details": ["Acrylic on Canvas", "80 x 80 cm", "Original artwork"]
 
     },
     {
@@ -13,88 +13,74 @@
       "title": "Car",
       "imageUrl":"car.jpg",
       "price": 1200,
-      "description":"Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
-      "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
+      "description":"\"Car\" is all about those fun, carefree moments on the road, where the world passes by and you're just enjoying the ride. It’s the thrill of hopping into a car, whether for a long drive or a quick escape, that makes any journey feel like an adventure. With its playful colors and simple shapes, this piece captures the joy of being on the move and the little freedom that comes with every drive. It’s a reminder that sometimes, the best memories are made while cruising with nowhere to be.",
+      "details": ["Acrylic on Canvas", "70 x 70 cm", "Original artwork"]
 
     },
     {
       "id": 3,
-      "title": "Dinner 2",
+      "title": "Dinner",
       "imageUrl":"dinner2.jpg",
       "price": "sold",
-      "description":"Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
-      "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
+      "description":"This piece reflects the delicate balance between inner peace and lingering struggle, where solitude becomes a companion rather than an adversary. The light stands as a quiet symbol of resilience, a small flame that holds steady in the night. The presence of the past, scattered and settled, whispers softly, reminding of paths once taken, yet urging forward.",
+      "details": ["Acrylic on Canvas", "60 x 60 cm", "Original artwork"]
     },
     {
       "id": 4,
       "title": "Girl 1",
       "imageUrl":"girl_1.jpeg",
       "price": "sold",
-      "description":"Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
-      "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
+      "description":"This piece embodies the raw energy of resilience, where strength is not shouted but felt deeply within. It carries the emotion of someone who has faced battles, yet stands firm, steady, and unshaken. The air is thick with a sense of determination and passion, as if her presence alone can ignite change.",
+      "details": ["Acrylic on Canvas", "120 x 100 cm", "Original artwork"]
     },
     {
         "id": 5,
         "title": "Girl 2",
         "imageUrl":"girl_2.jpeg",
         "price": 800,
-        "description":"Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
-      "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
+        "description":"\"Girl 2\" embodies the tension between vulnerability and strength, a moment caught between the present and the unknown future. There’s a quiet anticipation in the air, as if something unseen lingers just beyond the horizon. It’s a reflection of the uncertainty that comes before a choice, where the weight of possibility hangs in every breath.",
+      "details": ["Acrylic on Canvas", "50 x 50 cm", "Original artwork"]
       },
       {
         "id": 6,
         "title": "Kiss",
         "imageUrl":"kiss.jpg",
         "price": "sold",
-        "description":"Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
-      "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
+        "description":"There’s a quiet intensity in \"Kiss\", a moment suspended between the rush of passion and the openness of letting go. It explores the fluidity of desire and the freedom to connect without limits, suggesting the delicate balance between closeness and independence. The emotions here are both bold and tender, wrapped in an air of daring honesty.",
+      "details": ["Acrylic on Canvas", "120 x 100 cm", "Original artwork"]
       },
       {
         "id": 7,
         "title": "Lamp",
         "imageUrl":"lamp.jpg",
         "price": "sold",
-        "description":"Mauris id augue eu ligula mollis convallis nec at ligula. Praesent pharetra leo erat, et laoreet lacus mattis mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce placerat, orci vitae sollicitudin lacinia, justo massa ultrices nibh, at commodo mauris libero vitae mauris.",
-      "details": ["110x180cm Acrylic on Canvas", "High-quality-canvas", "Original artwork", "Handmade", "Signed with a certificate of authenticity"]
+        "description":"There’s a sense of calm in \"Lamp\", where the warmth of a simple routine offers solace from the rush of the outside world. It embodies the quiet moments that make a house feel like home, a space of reflection and gentle peace. The soft light creates a feeling of security and serenity, like a pause in the middle of life’s busy rhythm.",
+      "details": ["Acrylic on Canvas", "80x 80 cm", "Original artwork"]
       },
       {
         "id": 8,
         "title": "Mit karte bitte",
         "imageUrl":"mit_karte_bitte.jpg",
-        "price": "sold"
+        "price": "1000",
+        "description":"“Mit Karte Bitte” expresses quiet resistance and unwavering adherence to tradition in the face of rapid change. There’s a palpable tension between the comfort of the familiar and the creeping uncertainty of modern digitalization. It reflects a deep-rooted German caution, where the fear of losing control sparks a stubborn refusal to embrace the unknown.",
+        "details": ["Acrylic on Canvas", "80 x 60 cm", "Original artwork"]
       },
       {
         "id": 9,
         "title": "Person 1",
         "imageUrl":"person_1.jpg",
-        "price": "sold"
+        "price": "sold",
+        "description":"\"Person 1\" evokes a delicate balance of introspection and detachment, as if suspended in a moment of personal reflection. The mood is tinged with a quiet sadness, yet there’s a sense of resilience in the way the figure holds itself. It conveys the bittersweet nature of looking inward, of confronting thoughts and memories with both grace and uncertainty.",
+        "details": ["Acrylic on Canvas", "70 x 60 cm", "Original artwork"]
       },
       {
         "id": 10,
         "title": "Window",
         "imageUrl":"window.jpg",
-        "price": "sold"
-      },
-      {
-        "id": 11,
-        "title": "Obraz 4",
-        "imageUrl": "https://images.unsplash.com/photo-1531489956451-20957fab52f2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHBhaW50aW5nfGVufDB8fDB8fHww"
-      },
-      {
-          "id": 12,
-          "title": "Obraz 5",
-          "imageUrl": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8fHBhaW50aW5nfGVufDB8fDB8fHww"
-        },
-        {
-          "id": 13,
-          "title": "Obraz 6",
-          "imageUrl": "https://images.unsplash.com/photo-1519985176271-adb1088fa94c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8fHBhaW50aW5nfGVufDB8fDB8fHww"
-        },
-        {
-          "id": 14,
-          "title": "Obraz 7",
-          "imageUrl": "https://images.unsplash.com/photo-1593642634367-d91a135587b5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8fHBhaW50aW5nfGVufDB8fDB8fHww"
-        }
+        "price": "sold",
+        "description":"\"Window\" reflects the quiet solitude of quarantine, where the world outside feels both distant and unreachable. The repetition of days spent inside blends with the pull of technology, offering distraction but also deepening the sense of isolation. There’s a tension between the safety of the indoors and the longing for the freedom that once felt so normal, now just out of reach.",
+        "details": ["Acrylic on Canvas", "100 x 100 cm", "Original artwork"]
+      }
       
   ]
   
