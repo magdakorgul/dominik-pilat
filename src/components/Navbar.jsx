@@ -17,7 +17,7 @@ const Navbar = ({ backgroundClass }) => {
 
   return (
     <>
-      <nav className={`navbar ${backgroundClass} px-4`}>
+      <nav className={`navbar ${backgroundClass} px-4 relative z-10`}>
   <div className="w-full flex items-center justify-between py-6 uppercase pl-4 pr-4 lg:pl-20 lg:pr-20">
     <Link to="/"> 
       <Logo className="w-6 h-6 lg:w-8 lg:h-8" />
@@ -87,7 +87,7 @@ const Navbar = ({ backgroundClass }) => {
                   className={({ isActive }) =>
                     `block text-white text-3xl lg:text-base ${
                       isActive ? "underline" : ""
-                    } hover:text-gray-400`
+                    } hover:underline `
                   }
                   onClick={toggleMenu}
                 >
@@ -100,7 +100,7 @@ const Navbar = ({ backgroundClass }) => {
                   className={({ isActive }) =>
                     `block text-white text-3xl lg:text-base ${
                       isActive ? "underline" : ""
-                    } hover:text-gray-400`
+                    } hover:underline`
                   }
                   onClick={toggleMenu}
                 >
@@ -126,7 +126,7 @@ const Navbar = ({ backgroundClass }) => {
                   className={({ isActive }) =>
                     `block text-white text-3xl lg:text-base ${
                       isActive ? "underline" : ""
-                    } hover:text-gray-400`
+                    } hover:underline`
                   }
                   onClick={toggleMenu}
                 >
@@ -139,7 +139,7 @@ const Navbar = ({ backgroundClass }) => {
                   className={({ isActive }) =>
                     `block text-white text-3xl lg:text-base ${
                       isActive ? "underline" : ""
-                    } hover:text-gray-400`
+                    } hover:underline`
                   }
                   onClick={toggleMenu}
                 >
