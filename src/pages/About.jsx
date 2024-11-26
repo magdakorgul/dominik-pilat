@@ -67,11 +67,11 @@ const About = () => {
             <Link
               to="javascript:void(0)"
               target="_blank"
-              onClick={() => (window.location = "mailto:pilatdom@gmail.com")}
+              onClick={() => (window.location = "mailto:dominic.pilat@gmail.com")}
             >
               <Mail className="w-full h-full" />
             </Link>
-            <Link to="https://www.linkedin.com" target="_blank">
+            <Link to="https://www.linkedin.com/in/dominik-pilat/" target="_blank">
               <Linkedin className="w-full h-full" />
             </Link>
           </div>
