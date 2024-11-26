@@ -3,7 +3,7 @@
       "id": 1,
       "title": "Boat",
       "imageUrl":"boat.jpeg",
-      "price": 1000,
+      "price": "sold",
       "description": "This piece evokes the feeling of floating between freedom and safety, like drifting on open water with the quiet assurance of being anchored. There's a sense of boundless exploration, where the vastness brings both calm and exhilaration, while the presence of protection offers quiet comfort amidst the adventure.",
       "details": ["Acrylic on Canvas", "80 x 80 cm", "Original artwork"]
 
@@ -12,7 +12,7 @@
       "id": 2,
       "title": "Car",
       "imageUrl":"car.jpg",
-      "price": 1200,
+      "price": "sold",
       "description":"\"Car\" is all about those fun, carefree moments on the road, where the world passes by and you're just enjoying the ride. It’s the thrill of hopping into a car, whether for a long drive or a quick escape, that makes any journey feel like an adventure. With its playful colors and simple shapes, this piece captures the joy of being on the move and the little freedom that comes with every drive. It’s a reminder that sometimes, the best memories are made while cruising with nowhere to be.",
       "details": ["Acrylic on Canvas", "70 x 70 cm", "Original artwork"]
 
@@ -37,7 +37,7 @@
         "id": 5,
         "title": "Girl 2",
         "imageUrl":"girl_2.jpeg",
-        "price": 800,
+        "price": "sold",
         "description":"\"Girl 2\" embodies the tension between vulnerability and strength, a moment caught between the present and the unknown future. There’s a quiet anticipation in the air, as if something unseen lingers just beyond the horizon. It’s a reflection of the uncertainty that comes before a choice, where the weight of possibility hangs in every breath.",
       "details": ["Acrylic on Canvas", "50 x 50 cm", "Original artwork"]
       },
@@ -61,7 +61,7 @@
         "id": 8,
         "title": "Mit karte bitte",
         "imageUrl":"mit_karte_bitte.jpg",
-        "price": "1000",
+        "price": "sold",
         "description":"“Mit Karte Bitte” expresses quiet resistance and unwavering adherence to tradition in the face of rapid change. There’s a palpable tension between the comfort of the familiar and the creeping uncertainty of modern digitalization. It reflects a deep-rooted German caution, where the fear of losing control sparks a stubborn refusal to embrace the unknown.",
         "details": ["Acrylic on Canvas", "80 x 60 cm", "Original artwork"]
       },
