@@ -15,7 +15,9 @@ const LargeGrid = ({items, basePath, showPrice}) => {
             {items.map(item => (
                 <div key={item.id} className="item paintings-card">
                     <Link to={`/${basePath}/${item.id}`} className="no-underline block">
-                    <img src={item.imageUrl} alt={item.title} className="image w-44 h-44 mb-1 px-2 block
+                    {console.log(`Generated image URL for ${item.title}: ${item.imageUrl}`)}
+
+                    <img src={`/${basePath}/${item.imageUrl}`} alt={item.title} className="image w-44 h-44 mb-1 px-2 block
                     md:w-11/12 md:h-full
                      lg:w-64 lg:h-64 lg:mt-4" />
                     <div className="flex justify-between lg:w-64 pt-2">
