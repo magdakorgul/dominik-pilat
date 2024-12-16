@@ -44,7 +44,7 @@
       {
         "id": 6,
         "title": "Kiss",
-        "imageUrl":"kiss.jpg",
+        "imageUrl":"kiss_1.png",
         "price": "sold",
         "description":"There’s a quiet intensity in \"Kiss\", a moment suspended between the rush of passion and the openness of letting go. It explores the fluidity of desire and the freedom to connect without limits, suggesting the delicate balance between closeness and independence. The emotions here are both bold and tender, wrapped in an air of daring honesty.",
       "details": ["Acrylic on Canvas", "120 x 100 cm", "Original artwork"]
@@ -80,6 +80,22 @@
         "price": "sold",
         "description":"\"Window\" reflects the quiet solitude of quarantine, where the world outside feels both distant and unreachable. The repetition of days spent inside blends with the pull of technology, offering distraction but also deepening the sense of isolation. There’s a tension between the safety of the indoors and the longing for the freedom that once felt so normal, now just out of reach.",
         "details": ["Acrylic on Canvas", "100 x 100 cm", "Original artwork"]
+      },
+      {
+        "id": 11,
+        "title": "Crop top",
+        "imageUrl":"Crop-top.png",
+        "price": "sold",
+        "description":"\"Crop Top\" embodies a lively spark, a tribute to those moments when life feels fresh and full of possibilities. There’s a playful vigor that evokes a sense of being in motion, savoring each second. It’s about embracing the simplicity of joy, letting the day unfold without hesitation or constraint.",
+        "details": ["Acrylic on Canvas", "120 x 100 cm", "Original artwork"]
+      },
+      {
+        "id": 12,
+        "title": "Tote",
+        "imageUrl":"Tote.png",
+        "price": "sold",
+        "description":"The essence of \"Tote\" lies in the harmony between the everyday and the extraordinary. It captures the flow of a routine infused with intention, where even the smallest gestures carry significance. The energy suggests the gentle pull of change, a quiet momentum toward something new.",
+        "details": ["Acrylic on Canvas", "80 x 80 cm", "Original artwork"]
       }
       
   ]
