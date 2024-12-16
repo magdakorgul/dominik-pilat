@@ -79,7 +79,7 @@ const About = () => {
         {/* Zmiana justify-center na text-left dla wyrownania obrazka */}
         <div className="hidden md:flex md:items-start md:mb-0 md:ml-24 md:mr-24">
           <img
-            src="/IMG_0209.jpg"
+            src="/IMG_02091.jpg"
             alt="dominik"
             className="w-full max-w-xs h-auto md:max-w-none"
           />
