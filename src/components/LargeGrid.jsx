@@ -44,8 +44,3 @@ const LargeGrid = ({items, basePath, showPrice}) => {
 export default LargeGrid;
 
 
-//wieksze odstepy miedzy wierszami (na wysokosc)
-//mniejszy tekst
-//hover underline, bez zmiany koloru
-
-//nawigacja - hover underline z b delikatnym szarym

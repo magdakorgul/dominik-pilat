@@ -59,7 +59,7 @@ const DesignDetails = () => {
                     <div className="flex flex-col items-center">
                         <div className="w-11/12 h-11/12 aspect-square overflow-hidden flex items-center justify-center">
                             <img
-                                src={design.imageUrl}
+                                src={`/design/${design.imageUrl}`}
                                 alt={design.title}
                                 className="w-11/12 h-11/12 md:object-cover md:w-full md:h-full"
                             />
@@ -96,11 +96,15 @@ const DesignDetails = () => {
 
                         {/* Ukrywanie na małych ekranach, widoczne na średnich i większych */}
                         <p className="hidden md:block text-left text-base">Details <br /></p>
-                        <ul className="hidden md:block list-disc pl-4 text-left text-base">
-                            {design.details.map((detail, index) => (
-                                <li key={index}>{detail}</li>
-                            ))}
-                        </ul>
+{design.details && design.details.length > 0 ? (
+  <ul className="hidden md:block list-disc pl-4 text-left text-base">
+    {design.details.map((detail, index) => (
+      <li key={index}>{detail}</li>
+    ))}
+  </ul>
+) : (
+  <p className="hidden md:block text-left text-base">No details available.</p>
+)}
                     </div>
                 </div>
             </div>
