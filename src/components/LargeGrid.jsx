@@ -23,14 +23,9 @@ const LargeGrid = ({items, basePath, showPrice}) => {
                     <div className="flex justify-between lg:w-64 pt-2">
                     <p className="title text-left font-semibold lg:text-base m-0 hidden lg:block">{item.title}</p>
                     {showPrice && (
-                    <p className="text-base text-right lg:text-base m-0 lg:mb-2 hidden lg:block">
-                            {item.price} 
-                            {item.price !== "sold" && (
-                                <>
-                                    €
-                                </>
-                            )}
-                            </p>
+                    <p className="text-base text-right lg:text-base m-0 lg:mb-2 hidden lg:block"> 
+                            {item.price === "sold" ? "sold" : "available"}
+                    </p>
                     )}
                     </div>
                     </Link>

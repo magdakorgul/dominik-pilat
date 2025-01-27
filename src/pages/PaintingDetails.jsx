@@ -51,7 +51,7 @@ const PaintingDetails = () => {
                         <div className="flex flex-col items-center">
                         <div className="w-11/12 h-11/12 aspect-square overflow-hidden flex items-center justify-center">
                         <img 
-                        src={painting.imageUrl} 
+                        src={`/paintings/${painting.imageUrl}`} 
                         alt={painting.title} 
                         className="w-11/12 h-11/12 md:object-cover md:w-full md:h-full" />
                         </div>
@@ -70,13 +70,14 @@ const PaintingDetails = () => {
                         <div className="mx-6">
                     <h1 className="text uppercase text-left text-xl mb-0 md:mb-0 mt-4 md:-mt-2 font-semibold md:text-2xl">{painting.title}</h1>
                     <h2 className="text text-left text-lg md:text-xl">
-                    {isSold ? "sold" : `${painting.price} €`}</h2>
+                    {isSold ? "sold" : "available"}
+                    </h2>
                     <p className="text text-left text-base mt-4 md:mt-4 mb-4 leading-tight">{painting.description}</p>
 
-                    {painting.price !== "sold" && (
+                    {!isSold && (
                         <Link to="/contact">
                     <button type="button" className="inline-flex items-center justify-center rounded-md text-base md:text-sm bg-white hover:bg-gray-100 text-black py-2 px-4 mt-4 mb-4 md:mb-8 w-full h-12">
-                    Ask to buy
+                    Ask for price
                     </button>
                     </Link>
                     )}

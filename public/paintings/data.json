@@ -3,7 +3,7 @@
       "id": 1,
       "title": "Boat",
       "imageUrl":"boat.jpeg",
-      "price": "sold",
+      "price": "available",
       "description": "This piece evokes the feeling of floating between freedom and safety, like drifting on open water with the quiet assurance of being anchored. There's a sense of boundless exploration, where the vastness brings both calm and exhilaration, while the presence of protection offers quiet comfort amidst the adventure.",
       "details": ["Acrylic on Canvas", "80 x 80 cm", "Original artwork"]
 
@@ -12,7 +12,7 @@
       "id": 2,
       "title": "Car",
       "imageUrl":"car.jpg",
-      "price": "sold",
+      "price": "available",
       "description":"\"Car\" is all about those fun, carefree moments on the road, where the world passes by and you're just enjoying the ride. It’s the thrill of hopping into a car, whether for a long drive or a quick escape, that makes any journey feel like an adventure. With its playful colors and simple shapes, this piece captures the joy of being on the move and the little freedom that comes with every drive. It’s a reminder that sometimes, the best memories are made while cruising with nowhere to be.",
       "details": ["Acrylic on Canvas", "70 x 70 cm", "Original artwork"]
 
@@ -21,7 +21,7 @@
       "id": 3,
       "title": "Dinner",
       "imageUrl":"dinner2.jpg",
-      "price": "sold",
+      "price": "available",
       "description":"This piece reflects the delicate balance between inner peace and lingering struggle, where solitude becomes a companion rather than an adversary. The light stands as a quiet symbol of resilience, a small flame that holds steady in the night. The presence of the past, scattered and settled, whispers softly, reminding of paths once taken, yet urging forward.",
       "details": ["Acrylic on Canvas", "60 x 60 cm", "Original artwork"]
     },
@@ -45,7 +45,7 @@
         "id": 6,
         "title": "Kiss",
         "imageUrl":"kiss_1.png",
-        "price": "sold",
+        "price": "available",
         "description":"There’s a quiet intensity in \"Kiss\", a moment suspended between the rush of passion and the openness of letting go. It explores the fluidity of desire and the freedom to connect without limits, suggesting the delicate balance between closeness and independence. The emotions here are both bold and tender, wrapped in an air of daring honesty.",
       "details": ["Acrylic on Canvas", "120 x 100 cm", "Original artwork"]
       },
@@ -53,7 +53,7 @@
         "id": 7,
         "title": "Lamp",
         "imageUrl":"lamp.jpg",
-        "price": "sold",
+        "price": "available",
         "description":"There’s a sense of calm in \"Lamp\", where the warmth of a simple routine offers solace from the rush of the outside world. It embodies the quiet moments that make a house feel like home, a space of reflection and gentle peace. The soft light creates a feeling of security and serenity, like a pause in the middle of life’s busy rhythm.",
       "details": ["Acrylic on Canvas", "80x 80 cm", "Original artwork"]
       },
@@ -61,7 +61,7 @@
         "id": 8,
         "title": "Mit karte bitte",
         "imageUrl":"mit_karte_bitte.jpg",
-        "price": "sold",
+        "price": "available",
         "description":"“Mit Karte Bitte” expresses quiet resistance and unwavering adherence to tradition in the face of rapid change. There’s a palpable tension between the comfort of the familiar and the creeping uncertainty of modern digitalization. It reflects a deep-rooted German caution, where the fear of losing control sparks a stubborn refusal to embrace the unknown.",
         "details": ["Acrylic on Canvas", "80 x 60 cm", "Original artwork"]
       },
@@ -69,7 +69,7 @@
         "id": 9,
         "title": "Person 1",
         "imageUrl":"person_1.jpg",
-        "price": "sold",
+        "price": "available",
         "description":"\"Person 1\" evokes a delicate balance of introspection and detachment, as if suspended in a moment of personal reflection. The mood is tinged with a quiet sadness, yet there’s a sense of resilience in the way the figure holds itself. It conveys the bittersweet nature of looking inward, of confronting thoughts and memories with both grace and uncertainty.",
         "details": ["Acrylic on Canvas", "70 x 60 cm", "Original artwork"]
       },
@@ -77,7 +77,7 @@
         "id": 10,
         "title": "Window",
         "imageUrl":"window.jpg",
-        "price": "sold",
+        "price": "available",
         "description":"\"Window\" reflects the quiet solitude of quarantine, where the world outside feels both distant and unreachable. The repetition of days spent inside blends with the pull of technology, offering distraction but also deepening the sense of isolation. There’s a tension between the safety of the indoors and the longing for the freedom that once felt so normal, now just out of reach.",
         "details": ["Acrylic on Canvas", "100 x 100 cm", "Original artwork"]
       },
@@ -85,7 +85,7 @@
         "id": 11,
         "title": "Crop top",
         "imageUrl":"Crop-top.png",
-        "price": "sold",
+        "price": "available",
         "description":"\"Crop Top\" embodies a lively spark, a tribute to those moments when life feels fresh and full of possibilities. There’s a playful vigor that evokes a sense of being in motion, savoring each second. It’s about embracing the simplicity of joy, letting the day unfold without hesitation or constraint.",
         "details": ["Acrylic on Canvas", "120 x 100 cm", "Original artwork"]
       },
@@ -93,7 +93,7 @@
         "id": 12,
         "title": "Tote",
         "imageUrl":"Tote.png",
-        "price": "sold",
+        "price": "available",
         "description":"The essence of \"Tote\" lies in the harmony between the everyday and the extraordinary. It captures the flow of a routine infused with intention, where even the smallest gestures carry significance. The energy suggests the gentle pull of change, a quiet momentum toward something new.",
         "details": ["Acrylic on Canvas", "80 x 80 cm", "Original artwork"]
       }
