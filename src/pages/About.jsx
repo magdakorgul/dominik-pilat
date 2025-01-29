@@ -10,13 +10,12 @@ const About = () => {
   return (
     <div className="about-details container md:mb-0">
       <div
-        className="grid grid-cols-1 mx-8 mt-4
-            md:grid-cols-2 md:gap-0 md:ml-24 md:mr-24 md:mt-0 md:mb-14 md:mx-32a"
+        className="grid grid-cols-1 md:grid-cols-2 gap-0 px-24 mt-4 md:mt-0 md:mb-14"
       >
         <div className="max-w-lg">
           <div className="w-full flex justify-center mb-6 md:hidden">
             <img
-              src="/IMG_0209.jpg"
+              src="/IMG_02091.jpg"
               alt="dominik"
               className="w-full md:w-full lg:w-full h-auto"
             />
@@ -77,11 +76,11 @@ const About = () => {
           </div>
         </div>
         {/* Zmiana justify-center na text-left dla wyrownania obrazka */}
-        <div className="hidden md:flex md:items-start md:mb-0 md:ml-24 md:mr-24">
+        <div className="hidden md:flex justify-end items-start w-full">
           <img
             src="/IMG_02091.jpg"
             alt="dominik"
-            className="w-full max-w-xs h-auto md:max-w-none"
+            className="w-full h-auto ml-auto"
           />
         </div>
       </div>
