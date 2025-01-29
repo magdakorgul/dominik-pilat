@@ -14,11 +14,11 @@ const About = () => {
             md:grid-cols-2 md:gap-0 md:ml-24 md:mr-24 md:mt-0 md:mb-14 md:mx-32a"
       >
         <div className="max-w-lg">
-          <div className="flex justify-center mb-6 md:hidden">
+          <div className="w-full flex justify-center mb-6 md:hidden">
             <img
               src="/IMG_0209.jpg"
               alt="dominik"
-              className="max-w-full h-auto"
+              className="w-full md:w-full lg:w-full h-auto"
             />
           </div>
           <h1 className="text-left text-xl font-semibold md:text-3xl uppercase">
