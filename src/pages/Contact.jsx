@@ -154,7 +154,7 @@ const Contact = () => {
             dominic.pilat@gmail.com
           </a>
           <a
-            href="https://www.instagram.com/dominikpilat"
+            href="https://www.instagram.com/dominik_pilat"
             target="_blank"
             rel="noopener noreferrer"
             className="text-left mt-0 underline block text-base leading-tight"
