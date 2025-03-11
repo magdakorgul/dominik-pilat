@@ -8,25 +8,8 @@
   flex-direction: column;
 }
 
-body .bg-paintings{
-  background-color: #c560a2;
-  
-}
-body .bg-painting-details{
-  background-color: #c560a2;
-}
-
-body .bg-design {
-  background-color: #5c7c57; 
-} 
-body .bg-about{
-  background-color: #80543f;
-}
-body .bg-contact{
-  background-color: #cc7225;
-}
-body .bg-home{
-  background-color: #C561A2;
+body .bg-global{
+  background-color: #80543F;
 }
 
 html, body{

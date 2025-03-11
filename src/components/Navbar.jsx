@@ -8,7 +8,7 @@ import { ReactComponent as Linkedin } from "../assets/linkedin.svg";
 import {ReactComponent as Logo} from "../assets/logo.svg";
 import { Link } from "react-router-dom";
 
-const Navbar = ({ backgroundClass }) => {
+const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -17,7 +17,7 @@ const Navbar = ({ backgroundClass }) => {
 
   return (
     <>
-      <nav className={`navbar ${backgroundClass} px-4 relative z-10`}>
+      <nav className={`navbar px-4 relative z-10`}>
   <div className="w-full flex items-center justify-between py-6 uppercase pl-4 pr-4 lg:pl-20 lg:pr-20">
     <Link to="/"> 
       <Logo className="w-6 h-6 lg:w-8 lg:h-8" />
@@ -57,8 +57,8 @@ const Navbar = ({ backgroundClass }) => {
 
           <div
   className={`${
-    isMenuOpen ? "block fixed inset-0 z-50" : "hidden"
-  } lg:flex lg:items-center lg:w-auto flex-col justify-center ${backgroundClass} lg:relative lg:bg-transparent lg:z-auto`}
+    isMenuOpen ? "block fixed inset-0 z-50 bg-global" : "hidden"
+  } lg:flex lg:items-center lg:w-auto flex-col justify-center lg:relative lg:bg-transparent lg:z-auto`}
   id="navbar-default"
 >
 

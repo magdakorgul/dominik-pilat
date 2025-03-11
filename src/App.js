@@ -16,35 +16,40 @@ const App = () => {
 
  
 
-const hideNavbar = location.pathname.match(/^\/paintings\/\d+$/) || location.pathname.match(/^\/design\/\d+$/);
+const hideNavbar = location.pathname.match(/^\/art\/\d+$/) || location.pathname.match(/^\/design\/\d+$/);
 
-const getClassForPath = (pathname) => {
-  if (pathname === '/') {
-    return 'bg-home';
-  } else if (pathname.startsWith('/art/')) {
-    return 'bg-paintings-details';
-  } else if (pathname.startsWith('/art')) {
-    return 'bg-paintings';
-  } else if (pathname.startsWith('/design/')) {
-    return 'bg-design';
-  } else if (pathname.startsWith('/design')) {
-    return 'bg-design';
-  } else if (pathname === '/about') {
-    return 'bg-about';
-  } else if (pathname === '/contact') {
-    return 'bg-contact';
-  } else {
-    return '';
-  }
+const getClassForPath = () => {
+  return 'bg-global'; 
 };
 
+// const getClassForPath = (pathname) => {
+//   if (pathname === '/') {
+//     return 'bg-home';
+//   } else if (pathname.startsWith('/art/')) {
+//     return 'bg-paintings-details';
+//   } else if (pathname.startsWith('/art')) {
+//     return 'bg-paintings';
+//   } else if (pathname.startsWith('/design/')) {
+//     return 'bg-design';
+//   } else if (pathname.startsWith('/design')) {
+//     return 'bg-design';
+//   } else if (pathname === '/about') {
+//     return 'bg-about';
+//   } else if (pathname === '/contact') {
+//     return 'bg-contact';
+//   } else {
+//     return '';
+//   }
+// };
 
-const currentClass = getClassForPath(location.pathname);
+
+// const currentClass = getClassForPath(location.pathname);
+<div className="App bg-global"></div>
 
 
-useEffect(() => {
-  document.body.className = currentClass;
-}, [currentClass]);
+// useEffect(() => {
+//   document.body.className = currentClass;
+// }, [currentClass]);
     
 
 
@@ -58,8 +63,8 @@ useEffect(() => {
   // const currentBackgroundClass = backgroundClasses[window.location.pathname] || "";
 
   return (
-    <div className={`App ${currentClass}`}>     
-      {!hideNavbar && <Navbar backgroundClass={currentClass} />}
+    <div className={`App bg-global`}>     
+      {!hideNavbar && <Navbar />}
      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/art" element={<Art />}/>
