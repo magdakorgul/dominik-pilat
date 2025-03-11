@@ -3,11 +3,11 @@ import {useEffect, useState} from 'react';
 import "../../src/App.css";
 import LargeGrid from '../components/LargeGrid';
 
-const Paintings = () => {
+const Art = () => {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-        fetch('/paintings/data.json')
+        fetch('/art/data.json')
         .then(res => res.json())
         .then(data => setItems(data))
         .catch(err => console.log('Error fetching the data', err));
@@ -15,9 +15,9 @@ const Paintings = () => {
 
     return (
         <div>
-            <LargeGrid items={items} basePath="paintings" showPrice={true} />
+            <LargeGrid items={items} basePath="art" showPrice={true} />
         </div>
     );
 };
 
-export default Paintings;
+export default Art;
