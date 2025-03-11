@@ -81,7 +81,7 @@ const Navbar = ({ backgroundClass }) => {
             </button>
 
             <ul className="flex flex-col justify-items-end w-full h-full p-4 mt-44 text-center space-y-8 lg:flex-row lg:space-x-6 lg:mt-0 lg:space-y-0 lg:p-0">
-              <li>
+              {/* <li>
                 <NavLink
                   to="/design"
                   className={({ isActive }) =>
@@ -93,10 +93,10 @@ const Navbar = ({ backgroundClass }) => {
                 >
                   Design
                 </NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink
-                  to="/paintings"
+                  to="/art"
                   className={({ isActive }) =>
                     `block text-white text-3xl lg:text-base ${
                       isActive ? "underline" : ""
@@ -104,7 +104,7 @@ const Navbar = ({ backgroundClass }) => {
                   }
                   onClick={toggleMenu}
                 >
-                  Paintings
+                  Art
                 </NavLink>
               </li>
               {/* <li>

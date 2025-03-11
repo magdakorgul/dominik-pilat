@@ -1,10 +1,8 @@
 import { Routes, Route, useLocation } from 'react-router-dom';
 import {useEffect} from 'react';
 import './App.css';
-import Paintings from './pages/Paintings';
-import PaintingDetails from './pages/PaintingDetails';
-import Design from './pages/Design';
-import DesignDetails from './pages/DesignDetails';
+import Art from './pages/Art';
+import ArtDetails from './pages/ArtDetails';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -23,9 +21,9 @@ const hideNavbar = location.pathname.match(/^\/paintings\/\d+$/) || location.pat
 const getClassForPath = (pathname) => {
   if (pathname === '/') {
     return 'bg-home';
-  } else if (pathname.startsWith('/paintings/')) {
-    return 'bg-painting-details';
-  } else if (pathname.startsWith('/paintings')) {
+  } else if (pathname.startsWith('/art/')) {
+    return 'bg-paintings-details';
+  } else if (pathname.startsWith('/art')) {
     return 'bg-paintings';
   } else if (pathname.startsWith('/design/')) {
     return 'bg-design';
@@ -64,10 +62,8 @@ useEffect(() => {
       {!hideNavbar && <Navbar backgroundClass={currentClass} />}
      <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/paintings" element={<Paintings />}/>
-        <Route path="/paintings/:paintingId" element={<PaintingDetails />} />
-        <Route path="/design" element={<Design />} />
-        <Route path="/design/:designId" element={<DesignDetails />} />
+        <Route path="/art" element={<Art />}/>
+        <Route path="/art/:artId" element={<ArtDetails />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
 

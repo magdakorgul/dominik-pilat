@@ -41,7 +41,7 @@ const PaintingDetails = () => {
 
         <div className="painting-details">
             <div key={painting.id} className="item">
-                <Link to="/paintings">
+                <Link to="/art">
             <div className="flex justify-end pr-8 mt-8 mb-4 md:pr-16 md:pt-16 md:mt-0" style={{ cursor: "pointer" }}>
                     <X width="24" height="24"  />
                     </div>
@@ -51,17 +51,17 @@ const PaintingDetails = () => {
                         <div className="flex flex-col items-center">
                         <div className="w-11/12 h-11/12 aspect-square overflow-hidden flex items-center justify-center">
                         <img 
-                        src={`/paintings/${painting.imageUrl}`} 
+                        src={`/art/${painting.imageUrl}`} 
                         alt={painting.title} 
                         className="w-11/12 h-11/12 md:object-cover md:w-full md:h-full" />
                         </div>
 
                         <div className="flex mt-4 mb-4 md:flex justify-between md:mt-6 md:mb-14" 
                         style={{ width: 'calc(100% - 44px)' }}>
-                        <Link to={`/paintings/${previousItem.id}`} className="arrow-left mx-2 md:mx-0">
+                        <Link to={`/art/${previousItem.id}`} className="arrow-left mx-2 md:mx-0">
                                 <ArrowLeft />
                             </Link>
-                            <Link to={`/paintings/${nextItem.id}`} className="arrow-righ mx-2 md:mx-0">
+                            <Link to={`/art/${nextItem.id}`} className="arrow-righ mx-2 md:mx-0">
                                 <ArrowRight />
                             </Link>
                         
