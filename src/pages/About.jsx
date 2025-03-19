@@ -24,16 +24,15 @@ const About = () => {
             Dominik Pilat
           </h1>
           <p className="text-left text-base mt-8 mb-4 leading-tight">
-          I’m a Berlin-based artist, and my work explores the power of geometric abstraction. 
-          Using bold, clean lines and vibrant color contrasts, I create visual compositions that balance simplicity with depth. 
-          Inspired by modernist traditions, my paintings often feature overlapping forms and minimalist palettes, 
-          exploring balance and tension within each piece. 
+          Dominik Piłat is a Berlin-based artist whose work redefines geometric abstraction through a lens of figurative storytelling. With a distinctive style that merges bold, clean lines and vibrant color contrasts, Piłat’s compositions balance simplicity with depth, creating visual narratives that resonate with both clarity and emotional complexity.  
+
+Drawing inspiration from the rhythms of daily life and the people who surround him, Piłat transforms ordinary moments into extraordinary explorations of form and space. His artistic practice is deeply rooted in the principles of branding and design, where he honed the ability to distill complex ideas into singular, powerful forms. This foundation informs his work today, as he uses minimalist geometric shapes and restrained palettes to evoke layered stories and universal themes. 
 
             <br />
             <br />
-            I primarily work with acrylic on canvas, 
-          blending sharp angles and soft curves to invite viewers into an exploration of form and space. 
-          My art reflects a refined yet playful approach to abstraction, offering a fresh, contemporary perspective on geometric painting.
+            Piłat’s paintings are a celebration of the geometric, a playful yet refined investigation of balance, tension, and the interplay of shapes. His work invites viewers to engage with the spaces between forms, offering a fresh, contemporary perspective on abstraction. 
+
+Emerging from a modernist tradition yet distinctly contemporary, Piłat’s art is a testament to the enduring power of simplicity and the profound beauty of the everyday.
             <br />
             <br />
             <p className="font-bold text-left mb-1">Enquiries</p>
