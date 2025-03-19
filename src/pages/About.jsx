@@ -21,9 +21,9 @@ const About = () => {
             />
           </div>
           <h1 className="text-left text-xl font-semibold md:text-3xl uppercase">
-            Dominik Pilat
+            Dominik Piłat
           </h1>
-          <p className="text-left text-base mt-8 mb-4 leading-tight">
+          <p className="text-left text-base mt-4 md:mt-8 md:mb-4 leading-tight">
           Dominik Piłat is a Berlin-based artist whose work redefines geometric abstraction through a lens of figurative storytelling. With a distinctive style that merges bold, clean lines and vibrant color contrasts, Piłat’s compositions balance simplicity with depth, creating visual narratives that resonate with both clarity and emotional complexity.  
           <br />
           <br />
@@ -79,7 +79,7 @@ Emerging from a modernist tradition yet distinctly contemporary, Piłat’s art 
           </div>
         </div>
         {/* Zmiana justify-center na text-left dla wyrownania obrazka */}
-        <div className="hidden md:flex justify-end items-start w-full">
+        <div className="hidden md:flex justify-end items-center w-full">
           <img
             src="/IMG_02091.jpg"
             alt="dominik"
