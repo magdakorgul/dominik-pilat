@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div className="about-details container md:mb-0">
       <div
-        className="grid grid-cols-1 md:grid-cols-2 gap-0 px-24 mt-4 md:mt-0 md:mb-14"
+        className="grid grid-cols-1 md:grid-cols-2 gap-0 px-24 mt-4 md:mt-0 md:mb-14 md:items-center"
       >
         <div className="max-w-lg">
           <div className="w-full flex justify-center mb-6 md:hidden">
@@ -79,7 +79,7 @@ Emerging from a modernist tradition yet distinctly contemporary, Piłat’s art 
           </div>
         </div>
         {/* Zmiana justify-center na text-left dla wyrownania obrazka */}
-        <div className="hidden md:flex justify-end items-center w-full">
+        <div className="hidden md:flex justify-end items-center w-full h-full md:mb-36">
           <img
             src="/IMG_02091.jpg"
             alt="dominik"
