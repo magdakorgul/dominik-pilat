@@ -7,41 +7,63 @@ const LargeGrid = ({items, basePath, showPrice}) => {
 
 
     return(
+<div className="large-grid px-[32px] space-y-[10px]  {/* MOBILE */}
+            md:px-[110px] md:grid md:grid-cols-3 md:gap-[10px]">  {/* DESKTOP */}
 
-        <div className="large-grid px-[32px] space-y-[10px]
-        md:mx-16 md:mt-10 md:gap-6
-        lg:grid lg:grid-cols-4 lg:gap-x-8 lg:mx-32 lg:mt-16 lg:mb-4 lg:max-w-screen-xl">
-        {/* // <div className="large-grid flex flex-col mx-8 gap-y-10
-        // md:mx-16 md:mt-10 md:gap-6
-        // lg:grid-cols-4 lg:gap-x-8 lg:gap-1 lg:mx-32 lg:mt-16 lg:mb-4 uppercase lg:max-w-screen-xl
-        // 2xl:mx-96"> */}
-            {items.map(item => (
-                // <div key={item.id} className="item paintings-card">
-                <div key={item.id} className="w-full max-w-[326px] mx-auto">
-                    <Link to={`/${basePath}/${item.id}`} className="no-underline block">
-                    {console.log(`Generated image URL for ${item.title}: ${item.imageUrl}`)}
-
-                    {/* <img src={`/${basePath}/${item.imageUrl}`} alt={item.title} className="image w-full h-auto mb-1 block
-                    md:w-11/12 md:h-full
-                     lg:w-64 lg:h-64 lg:mt-4" /> */}
-                     <img 
-                        src={`/${basePath}/${item.imageUrl}`} 
-                        alt={item.title} 
-                        className="w-[326px] h-[407px] object-cover mx-auto"
-                    />
-                    <div className="flex justify-between lg:w-64 pt-2">
-                    <p className="title text-left font-semibold lg:text-base m-0 hidden lg:block">{item.title}</p>
-                    {showPrice && (
-                    <p className="text-base text-right lg:text-base m-0 lg:mb-2 hidden lg:block"> 
-                            {item.price === "sold" ? "sold" : "available"}
-                    </p>
-                    )}
+            {items.map((item, index) => (
+                <div key={item.id} className="relative">  {/* Kontener względny */}
+                    <div className={`
+                        w-full max-w-[326px] mx-auto  {/* MOBILE */}
+                        md:max-w-none md:mx-0  {/* DESKTOP */}
+                        ${index % 3 === 0 ? 'md:translate-y-[50px]' : ''}  {/* 1. kolumna */}
+                        ${index % 3 === 1 ? 'md:translate-y-[275px]' : ''}  {/* 2. kolumna */}
+                        ${index % 3 === 2 ? 'md:translate-y-[125px]' : ''}   {/* 3. kolumna */}
+                        transition-transform
+                    `}>
+                        <Link to={`/${basePath}/${item.id}`}>
+                            <img 
+                                src={`/${basePath}/${item.imageUrl}`} 
+                                className="w-[326px] h-[407px] object-cover mx-auto  {/* MOBILE */}
+                                       md:w-full md:h-[400px]  {/* DESKTOP */}
+                                       hover:scale-105 transition-transform"
+                            />
+                        </Link>
                     </div>
-                    </Link>
                 </div>
             ))}
+</div>
+        
+     // <div className="large-grid px-[32px] space-y-[10px]
+        // md:px-[110px] md:grid md:grid-cols-3 md:gap-[10px]
+        // md:[&>div:nth-child(3n+1)]:mt-[50px]
+        // md:[&>div:nth-child(3n+3)]:mt-[25px]">
+        
+        //     {items.map(item => (
+        //         <div key={item.id} className="w-full max-w-[326px] mx-auto
+        //         md:max-w-none md:mx-0">
 
-        </div>
+        //             <Link to={`/${basePath}/${item.id}`} className="no-underline block">
+        //              <img 
+        //                 src={`/${basePath}/${item.imageUrl}`} 
+        //                 alt={item.title} 
+        //                 className="w-[326px] h-[407px] object-cover mx-auto
+        //                 md:w-full md:h-[400px]
+        //                 hover:scale-105 transition-transform"
+                    
+        //             />
+        //             <div className="flex justify-between lg:w-64 pt-2">
+        //             <p className="title text-left font-semibold lg:text-base m-0 hidden lg:block">{item.title}</p>
+        //             {showPrice && (
+        //             <p className="text-base text-right lg:text-base m-0 lg:mb-2 hidden lg:block"> 
+        //                     {item.price === "sold" ? "sold" : "available"}
+        //             </p>
+        //             )}
+        //             </div>
+        //             </Link>
+        //         </div>
+        //     ))}
+
+        // </div>
     );
 };
 
