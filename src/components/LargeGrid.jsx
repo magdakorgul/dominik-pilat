@@ -8,18 +8,27 @@ const LargeGrid = ({items, basePath, showPrice}) => {
 
     return(
 
-        <div className="large-grid flex flex-col mx-8 gap-y-10
+        <div className="large-grid px-[32px] space-y-[10px]
         md:mx-16 md:mt-10 md:gap-6
-        lg:grid-cols-4 lg:gap-x-8 lg:gap-1 lg:mx-32 lg:mt-16 lg:mb-4 uppercase lg:max-w-screen-xl
-        2xl:mx-96">
+        lg:grid lg:grid-cols-4 lg:gap-x-8 lg:mx-32 lg:mt-16 lg:mb-4 lg:max-w-screen-xl">
+        {/* // <div className="large-grid flex flex-col mx-8 gap-y-10
+        // md:mx-16 md:mt-10 md:gap-6
+        // lg:grid-cols-4 lg:gap-x-8 lg:gap-1 lg:mx-32 lg:mt-16 lg:mb-4 uppercase lg:max-w-screen-xl
+        // 2xl:mx-96"> */}
             {items.map(item => (
-                <div key={item.id} className="item paintings-card">
+                // <div key={item.id} className="item paintings-card">
+                <div key={item.id} className="w-full max-w-[326px] mx-auto">
                     <Link to={`/${basePath}/${item.id}`} className="no-underline block">
                     {console.log(`Generated image URL for ${item.title}: ${item.imageUrl}`)}
 
-                    <img src={`/${basePath}/${item.imageUrl}`} alt={item.title} className="image w-full h-auto mb-1 block
+                    {/* <img src={`/${basePath}/${item.imageUrl}`} alt={item.title} className="image w-full h-auto mb-1 block
                     md:w-11/12 md:h-full
-                     lg:w-64 lg:h-64 lg:mt-4" />
+                     lg:w-64 lg:h-64 lg:mt-4" /> */}
+                     <img 
+                        src={`/${basePath}/${item.imageUrl}`} 
+                        alt={item.title} 
+                        className="w-[326px] h-[407px] object-cover mx-auto"
+                    />
                     <div className="flex justify-between lg:w-64 pt-2">
                     <p className="title text-left font-semibold lg:text-base m-0 hidden lg:block">{item.title}</p>
                     {showPrice && (
