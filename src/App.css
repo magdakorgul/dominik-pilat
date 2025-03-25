@@ -2,6 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+.mobile-item {
+  margin-bottom: 10px;
+}
+.mobile-item:last-child {
+  margin-bottom: 0;
+}
+.mobile-image {
+  width: 100%;
+  max-width: 326px;
+  height: 407px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.desktop-item {
+  height: 500px;
+}
+.desktop-image {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.desktop-image:hover {
+  transform: scale(1.05);
+}
+
 .App{
   min-height: 100%;
   display: flex;
@@ -188,6 +217,13 @@ a:link {
     font-size: 12px;
     /* margin-top: 20px;
     margin-bottom: auto; */
+
+    .large-grid > div {
+    margin-bottom: 10px;
+  }
+  .large-grid > div:last-child {
+    margin-bottom: 0;
+  }
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
@@ -211,21 +247,18 @@ a:link {
   }
   a {
     font-size: 14px;
+
+    
   }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px)  {
+  .large-grid {
+    display: block;
+  }
+
 }
 
-@media (min-width: 1025px) and (max-width: 1200px) {
-}
 
-@media (min-width: 1201px) and (max-width: 1366px) {
-  /* ta wydaje sie ok, do sprawwdzenia popularne rozdzielczosci */
-}
-
-@media (min-width: 1367px) {
-  /* do dostosowania do duzej */
-}
 /* rozdzielczości: 
 mobile do 480 - jest,
 mobile do 768,
