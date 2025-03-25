@@ -4,11 +4,11 @@ import {Link} from "react-router-dom";
 
 const LargeGrid = ({items, basePath}) => {
     return (
-        <div className="large-grid">
+        <div className="large-grid px-[32px] pb-[50px] md:pb-20">
             {/* Mobile Layout - Completely Separate */}
-            <div className="block md:hidden px-[32px]">
+            <div className="block md:hidden">
                 {items.map((item) => (
-                    <div key={item.id} className="mobile-item">
+                    <div key={item.id} className="mobile-item mb-[10px] last:mb-0">
                         <Link to={`/${basePath}/${item.id}`} className="block">
                             <img 
                                 src={`/${basePath}/${item.imageUrl}`}

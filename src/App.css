@@ -224,6 +224,9 @@ a:link {
   .large-grid > div:last-child {
     margin-bottom: 0;
   }
+  .large-grid {
+    padding-bottom: 80px !important;
+  }
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
@@ -247,13 +250,28 @@ a:link {
   }
   a {
     font-size: 14px;
-
+  }
+.large-grid {
+    padding-bottom: 80px !important;
+  }
     
   }
-}
+
 @media (min-width: 768px)  {
   .large-grid {
     display: block;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    bottom: -100px;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    background: #80543F;
+    z-index: -1; /* Behind content */
+    pointer-events: none;
   }
 
 }
