@@ -1,6 +1,6 @@
 import React from "react";
-import { ReactComponent as ArrowRight } from "../assets/arrow_right.svg";
-import { ReactComponent as ArrowLeft } from "../assets/arrow_left.svg";
+import { ReactComponent as ArrowRight } from "../assets/brown-arrow-right.svg";
+import { ReactComponent as ArrowLeft } from "../assets/brown-arrow-left.svg";
 import { ReactComponent as X } from "../assets/x.svg";
 
 const ArtModal = ({ painting, items, onClose, onNext, onPrev }) => {
@@ -9,18 +9,17 @@ const ArtModal = ({ painting, items, onClose, onNext, onPrev }) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
       {/* Modal container - 1035px × 763px */}
-      <div className="relative bg-white w-[1035px] h-[763px] flex">
+      <div className="relative bg-white w-[90vw] max-w-[1035px] h-[90vh] max-h-[763px] flex">
         {/* Close button */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 z-10"
-          style={{ cursor: "pointer" }}
+          className="absolute top-4 right-4 z-10 p-2 text-[#80543F] hover:text-[#5c3d2e] transition-colors"
         >
-          <X width="24" height="24" className="text-black" />
+          <X width={20} height={19.8} className="stroke-current" />
         </button>
 
         {/* Left side - image (610px × 736px) */}
-        <div className="w-[610px] h-[736px] flex items-center justify-center bg-gray-100">
+        <div className="w-[60%] max-w-[610px] h-full flex items-center justify-center bg-gray-100">
           <img
             src={`/art/${painting.imageUrl}`}
             alt={painting.title}
@@ -29,7 +28,7 @@ const ArtModal = ({ painting, items, onClose, onNext, onPrev }) => {
         </div>
 
         {/* Right side - content (425px wide) */}
-        <div className="w-[425px] h-full bg-gray-200 p-8 flex flex-col">
+        <div className="w-[40%] flex flex-col p-8 bg-gray-200 overflow-hidden">
           {/* Title and status */}
           <h1 className="text-black uppercase text-2xl font-semibold mb-2">
             {painting.title}
@@ -62,18 +61,18 @@ const ArtModal = ({ painting, items, onClose, onNext, onPrev }) => {
           </ul>
 
           {/* Navigation arrows at bottom */}
-          <div className="mt-auto flex justify-between">
+          <div className="mt-auto flex justify-between items-end pb-0 px-0 w-full">
             <button
               onClick={onPrev}
-              className="arrow-left flex items-center justify-center"
+              className="arrow-left ml-0 text-[#80543F] hover:text-[#5c3d2e] translate-x-[-8px]"
             >
-              <ArrowLeft className="text-black" />
+              <ArrowLeft width={42} height={13} />
             </button>
             <button
               onClick={onNext}
-              className="arrow-right flex items-center justify-center"
+              className="arrow-right ml-0 text-[#80543F] hover:text-[#5c3d2e] translate-x-[-8px]"
             >
-              <ArrowRight className="text-black" />
+              <ArrowRight width={42} height={13} />
             </button>
           </div>
         </div>

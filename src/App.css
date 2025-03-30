@@ -257,6 +257,16 @@ a:link {
     
   }
 
+.bg-gray-200 {
+  position: relative; /* contains any potential overflow */
+  box-shadow: inset 0 0 0 1px #e5e7eb; /* matches gray-200 */
+}
+
+/* Anti-aliasing fix */
+.flex > div:first-child {
+  margin-right: -0.5px;
+}
+
 @media (min-width: 768px)  {
   .large-grid {
     display: block;
