@@ -31,28 +31,28 @@ const ArtModal = ({ painting, items, onClose, onNext, onPrev }) => {
               <X width={20} height={20} />
             </button>
 
-            <h1 className="text-black uppercase text-2xl font-semibold mb-2">
+            <h1 className="text-[#80543F] uppercase text-2xl font-semibold mb-2 mt-10">
               {painting.title}
             </h1>
-            <h2 className="text-black text-xl mb-6">
+            {/* <h2 className="text-black text-xl mb-6">
               {isSold ? "sold" : "available"}
-            </h2>
+            </h2> */}
 
-            <p className="text-black text-base mb-6 leading-tight">
+            <p className="text-[#80543F] text-base mb-6 leading-tight">
               {painting.description}
             </p>
 
-            {!isSold && (
+            {/* {!isSold && (
               <button
                 type="button"
                 className="inline-flex items-center justify-center rounded-md text-sm bg-black hover:bg-gray-800 text-white py-3 px-4 mb-6 w-full"
               >
                 Ask for price
               </button>
-            )}
+            )} */}
 
-            <p className="text-black text-base mb-2 font-semibold">Details</p>
-            <ul className="text-black text-base list-disc pl-4 mb-8">
+            <p className="text-[#80543F] text-base mb-2 font-semibold">Details</p>
+            <ul className="text-[#80543F] text-base list-disc pl-4 mb-8">
               {painting.details.map((detail, index) => (
                 <li key={index}>{detail}</li>
               ))}
@@ -98,12 +98,12 @@ const ArtModal = ({ painting, items, onClose, onNext, onPrev }) => {
 
           {/* Content section */}
           <div className="bg-gray-200 p-6 flex flex-col flex-shrink-0">
-            <h1 className="text-xl font-semibold text-black mb-2">{painting.title}</h1>
-            <p className="text-sm text-black mb-4 italic">{isSold ? "SOLD" : "AVAILABLE"}</p>
-            <p className="text-base text-black mb-4">{painting.description}</p>
+            <h1 className="text-xl font-semibold text-[#80543F] mb-2">{painting.title}</h1>
+            {/* <p className="text-sm text-black mb-4 italic">{isSold ? "SOLD" : "AVAILABLE"}</p> */}
+            <p className="text-base text-[#80543F] mb-4">{painting.description}</p>
             
-            <p className="text-sm font-semibold text-black mb-2">Details</p>
-            <ul className="text-sm text-black list-disc pl-4 mb-6">
+            <p className="text-sm font-semibold text-[#80543F] mb-2">Details</p>
+            <ul className="text-sm text-[#80543F] list-disc pl-4 mb-6">
               {painting.details.map((detail, index) => (
                 <li key={index}>{detail}</li>
               ))}

@@ -21,40 +21,52 @@ const About = () => {
 
         {/* Text container - strictly left-aligned */}
         <div className="w-full text-left">
-          <h1 className="text-xl font-semibold md:text-3xl uppercase mb-6 text-left">
-            Dominik Pilat
+          <h1 className="text-xl font-medium md:text-3xl uppercase mb-6 text-left">
+            Dominik Piłat
           </h1>
           
           <div className="text-left">
             <p className="mb-4">
-              I'm a Berlin-based artist, and my work explores the power of geometric abstraction. 
-              Using bold, clean lines and vibrant color contrasts, I create visual compositions that balance simplicity with depth. 
-              Inspired by modernist traditions, my paintings often feature overlapping forms and minimalist palettes, 
-              exploring balance and tension within each piece.
+            Dominik Piłat is a Berlin-based artist whose work redefines geometric abstraction through a lens of figurative storytelling. With a distinctive style that merges bold, clean lines and vibrant color contrasts, Piłat’s compositions balance simplicity with depth, creating visual narratives that resonate with both clarity and emotional complexity.
             </p>
             
             <p className="mb-4">
-              I primarily work with acrylic on canvas, 
-              blending sharp angles and soft curves to invite viewers into an exploration of form and space. 
-              My art reflects a refined yet playful approach to abstraction, offering a fresh, contemporary perspective on geometric painting.
+            Drawing inspiration from the rhythms of daily life and the people who surround him, Piłat transforms ordinary moments into extraordinary explorations of form and space. His artistic practice is deeply rooted in the principles of branding and design, where he honed the ability to distill complex ideas into singular, powerful forms. This foundation informs his work today, as he uses minimalist geometric shapes and restrained palettes to evoke layered stories and universal themes.
+
+            </p>
+
+            <p className="mb-4">
+            Piłat’s paintings are a celebration of the geometric, a playful yet refined investigation of balance, tension, and the interplay of shapes. His work invites viewers to engage with the spaces between forms, offering a fresh, contemporary perspective on abstraction.
+            </p>
+
+            <p className="mb-4">
+            Emerging from a modernist tradition yet distinctly contemporary, Piłat’s art is a testament to the enduring power of simplicity and the profound beauty of the everyday.
             </p>
             
-            <div className="pt-4">
-              <p className="font-bold mb-2">Enquiries</p>
-              <a
-                href="mailto:dominic.pilat@gmail.com"
-                className="underline block mb-2"
+            <div className="pt-4 font-semibold">
+            <a
+                href="https://www.instagram.com/dominik_pilat"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                dominic.pilat@gmail.com
+                Instagram
               </a>
+              <br />
               <a
                 href="https://www.instagram.com/dominik_pilat"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline block"
               >
-                instagram
+                Tiktok
               </a>
+              <br />
+              <a
+                href="mailto:dominic.pilat@gmail.com"
+                className="block mb-2"
+              >
+                Email
+              </a>
+              
             </div>
           </div>
 

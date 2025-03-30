@@ -163,7 +163,7 @@ const Contact = () => {
           </a>
         </div>
 
-        <div className="flex justify-center md:justify-start items-center space-x-8 mt-44 md:mt-20 mb-6 md:mb-0">
+        {/* <div className="flex justify-center md:justify-start items-center space-x-8 mt-44 md:mt-20 mb-6 md:mb-0">
           <Link
             to="https://www.behance.net/dominikpilat"
             target="_blank"
@@ -185,7 +185,7 @@ const Contact = () => {
           <Link to="https://www.linkedin.com" target="_blank">
             <Linkedin className="w-full h-full" />
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );

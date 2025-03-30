@@ -149,7 +149,7 @@ const Navbar = () => {
             </ul>
 
             {/* Ikony mediów społecznościowych */}
-            <div className="absolute bottom-8 left-0 right-0 flex justify-center items-center space-x-8 lg:hidden">
+            {/* <div className="absolute bottom-8 left-0 right-0 flex justify-center items-center space-x-8 lg:hidden">
               <Link to="https://www.behance.net/dominikpilat" target="_blank" className="w-8 h-8">
                 <Behance className="w-full h-full inline-block"/>
               </Link>
@@ -163,7 +163,7 @@ const Navbar = () => {
               <Link to="https://www.linkedin.com" target="_blank">
                 <Linkedin className="w-full h-full"/>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </nav>
