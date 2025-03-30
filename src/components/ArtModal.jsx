@@ -4,79 +4,123 @@ import { ReactComponent as ArrowLeft } from "../assets/brown-arrow-left.svg";
 import { ReactComponent as X } from "../assets/x.svg";
 
 const ArtModal = ({ painting, items, onClose, onNext, onPrev }) => {
+  if (!painting) return null;
+
   const isSold = painting.price === "sold";
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
-      {/* Modal container - 1035px × 763px */}
-      <div className="relative bg-white w-[90vw] max-w-[1035px] h-[90vh] max-h-[763px] flex">
-        {/* Close button */}
-        <button
-          onClick={onClose}
-          className="absolute top-4 right-4 z-10 p-2 text-[#80543F] hover:text-[#5c3d2e] transition-colors"
-        >
-          <X width={20} height={19.8} className="stroke-current" />
-        </button>
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70 p-4">
+      {/* Desktop Version */}
+      <div className="hidden md:flex items-center justify-center">
+        <div className="relative bg-white w-[90vw] max-w-[1035px] h-[90vh] max-h-[763px] flex">
+          {/* Left side - image */}
+          <div className="w-[59%] h-full flex items-center justify-center bg-gray-100 overflow-hidden">
+            <img
+              src={`/art/${painting.imageUrl}`}
+              alt={painting.title}
+              className="max-w-[90%] max-h-[90%] object-contain"
+            />
+          </div>
 
-        {/* Left side - image (610px × 736px) */}
-        <div className="w-[60%] max-w-[610px] h-full flex items-center justify-center bg-gray-100">
-          <img
-            src={`/art/${painting.imageUrl}`}
-            alt={painting.title}
-            className="max-w-[580px] max-h-[720px] object-contain"
-          />
-        </div>
-
-        {/* Right side - content (425px wide) */}
-        <div className="w-[40%] flex flex-col p-8 bg-gray-200 overflow-hidden">
-          {/* Title and status */}
-          <h1 className="text-black uppercase text-2xl font-semibold mb-2">
-            {painting.title}
-          </h1>
-          <h2 className="text-black text-xl mb-6">
-            {isSold ? "sold" : "available"}
-          </h2>
-
-          {/* Description */}
-          <p className="text-black text-base mb-6 leading-tight">
-            {painting.description}
-          </p>
-
-          {/* Price button if available */}
-          {!isSold && (
+          {/* Right side - content */}
+          <div className="w-[41%] h-full bg-gray-200 p-8 flex flex-col relative">
             <button
-              type="button"
-              className="inline-flex items-center justify-center rounded-md text-sm bg-black hover:bg-gray-800 text-white py-3 px-4 mb-6 w-full"
+              onClick={onClose}
+              className="absolute top-4 right-4 p-2 text-[#80543F] hover:text-[#5c3d2e]"
             >
-              Ask for price
+              <X width={20} height={20} />
             </button>
-          )}
 
-          {/* Details */}
-          <p className="text-black text-base mb-2 font-semibold">Details</p>
-          <ul className="text-black text-base list-disc pl-4 mb-8">
-            {painting.details.map((detail, index) => (
-              <li key={index}>{detail}</li>
-            ))}
-          </ul>
+            <h1 className="text-black uppercase text-2xl font-semibold mb-2">
+              {painting.title}
+            </h1>
+            <h2 className="text-black text-xl mb-6">
+              {isSold ? "sold" : "available"}
+            </h2>
 
-          {/* Navigation arrows at bottom */}
-          <div className="mt-auto flex justify-between items-end pb-0 px-0 w-full">
-            <button
-              onClick={onPrev}
-              className="arrow-left ml-0 text-[#80543F] hover:text-[#5c3d2e] translate-x-[-8px]"
-            >
-              <ArrowLeft width={42} height={13} />
-            </button>
-            <button
-              onClick={onNext}
-              className="arrow-right ml-0 text-[#80543F] hover:text-[#5c3d2e] translate-x-[-8px]"
-            >
-              <ArrowRight width={42} height={13} />
-            </button>
+            <p className="text-black text-base mb-6 leading-tight">
+              {painting.description}
+            </p>
+
+            {!isSold && (
+              <button
+                type="button"
+                className="inline-flex items-center justify-center rounded-md text-sm bg-black hover:bg-gray-800 text-white py-3 px-4 mb-6 w-full"
+              >
+                Ask for price
+              </button>
+            )}
+
+            <p className="text-black text-base mb-2 font-semibold">Details</p>
+            <ul className="text-black text-base list-disc pl-4 mb-8">
+              {painting.details.map((detail, index) => (
+                <li key={index}>{detail}</li>
+              ))}
+            </ul>
+
+            <div className="mt-auto flex justify-between pt-4">
+              <button
+                onClick={onPrev}
+                className="p-2 text-[#80543F] hover:text-[#5c3d2e]"
+              >
+                <ArrowLeft width={42} height={13} />
+              </button>
+              <button
+                onClick={onNext}
+                className="p-2 text-[#80543F] hover:text-[#5c3d2e]"
+              >
+                <ArrowRight width={42} height={13} />
+              </button>
+            </div>
           </div>
         </div>
       </div>
+
+      {/* Mobile Version */}
+      <div className="md:hidden fixed inset-0 overflow-y-auto">
+        <div className="min-h-full flex flex-col bg-white">
+          {/* Grey top bar with X */}
+          <div className="w-full h-12 bg-gray-200 flex justify-end items-center px-4 border-b border-gray-300 sticky top-0 z-10">
+            <button onClick={onClose} className="p-2">
+              <X width={20} height={20} className="text-[#80543F]" />
+            </button>
+          </div>
+
+          <div className="flex-1 overflow-y-auto">
+          {/* Image section */}
+          <div className="flex-1 flex items-center justify-center p-4 bg-gray-100 overflow-hidden">
+            <img
+              src={`/art/${painting.imageUrl}`}
+              alt={painting.title}
+              className="w-full max-w-[390px] h-auto max-h-[487px] object-contain"
+            />
+          </div>
+
+          {/* Content section */}
+          <div className="bg-gray-200 p-6 flex flex-col flex-shrink-0">
+            <h1 className="text-xl font-semibold text-black mb-2">{painting.title}</h1>
+            <p className="text-sm text-black mb-4 italic">{isSold ? "SOLD" : "AVAILABLE"}</p>
+            <p className="text-base text-black mb-4">{painting.description}</p>
+            
+            <p className="text-sm font-semibold text-black mb-2">Details</p>
+            <ul className="text-sm text-black list-disc pl-4 mb-6">
+              {painting.details.map((detail, index) => (
+                <li key={index}>{detail}</li>
+              ))}
+            </ul>
+
+            <div className="flex justify-between pt-4">
+              <button onClick={onPrev} className="p-2">
+                <ArrowLeft width={42} height={13} className="text-[#80543F]" />
+              </button>
+              <button onClick={onNext} className="p-2">
+                <ArrowRight width={42} height={13} className="text-[#80543F]" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
   );
 };

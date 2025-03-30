@@ -12,7 +12,10 @@ const LargeGrid = ({items, basePath}) => {
     const handleImageClick = (item) => {
         setSelectedPainting(item);
         setIsModalOpen(true);
-      };
+        if (window.innerWidth <= 768) {
+            window.history.pushState(null, '', window.location.pathname);
+      }
+    };
     
       const handleCloseModal = () => {
         setIsModalOpen(false);
@@ -35,14 +38,15 @@ const LargeGrid = ({items, basePath}) => {
             {/* Mobile Layout - Completely Separate */}
             <div className="block md:hidden">
                 {items.map((item) => (
-                    <div key={item.id} className="mobile-item mb-[10px] last:mb-0">
-                        <Link to={`/${basePath}/${item.id}`} className="block">
+                    <div key={item.id} className="mobile-item mb-[10px] last:mb-0"
+                    onClick={() => handleImageClick(item)}>
+                        <div className="block">
                             <img 
                                 src={`/${basePath}/${item.imageUrl}`}
                                 alt={item.title}
                                 className="mobile-image"
                             />
-                        </Link>
+                        </div>
                     </div>
                 ))}
             </div>
@@ -72,7 +76,7 @@ const LargeGrid = ({items, basePath}) => {
                 ))}
             </div>
             {/* Modal */}
-            {isModalOpen && selectedPainting && (
+            {isModalOpen && (
             <ArtModal
             painting={selectedPainting}
             items={items}
@@ -88,5 +92,3 @@ const LargeGrid = ({items, basePath}) => {
 
 
 export default LargeGrid;
-
-
