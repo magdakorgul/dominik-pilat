@@ -31,7 +31,7 @@ const ArtModal = ({ painting, items, onClose, onNext, onPrev }) => {
               <X width={20} height={20} />
             </button>
 
-            <h1 className="text-[#80543F] uppercase text-2xl font-semibold mb-2 mt-10">
+            <h1 className="text-[#80543F] uppercase text-xl font-semibold mb-2 mt-10">
               {painting.title}
             </h1>
             {/* <h2 className="text-black text-xl mb-6">

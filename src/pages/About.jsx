@@ -21,7 +21,7 @@ const About = () => {
 
         {/* Text container - strictly left-aligned */}
         <div className="w-full text-left">
-          <h1 className="text-xl font-medium md:text-3xl uppercase mb-6 text-left">
+          <h1 className="text- fxlont-medium md:text-3xl uppercase mb-6 text-left">
             Dominik Piłat
           </h1>
           
@@ -52,12 +52,20 @@ const About = () => {
                 Instagram
               </a>
               <br />
-              <a
+              {/* <a
                 href="https://www.instagram.com/dominik_pilat"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Tiktok
+              </a>
+              <br /> */}
+              <a
+                href="https://bsky.app/profile/dominik-pilat.bsky.social"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Bluesky
               </a>
               <br />
               <a

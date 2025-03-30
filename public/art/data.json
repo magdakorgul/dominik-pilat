@@ -1,96 +1,41 @@
 [
     {
       "id": 1,
-      "title": "Boat",
-      "imageUrl":"boat.png",
-      "price": "available",
-      "description": "This piece evokes the feeling of floating between freedom and safety, like drifting on open water with the quiet assurance of being anchored. There's a sense of boundless exploration, where the vastness brings both calm and exhilaration, while the presence of protection offers quiet comfort amidst the adventure.",
-      "details": ["Acrylic on Canvas", "80 x 80 cm"]
-
-    },
-    {
-      "id": 2,
-      "title": "Car",
-      "imageUrl":"car.png",
-      "price": "available",
-      "description":"\"Car\" is all about those fun, carefree moments on the road, where the world passes by and you're just enjoying the ride. It’s the thrill of hopping into a car, whether for a long drive or a quick escape, that makes any journey feel like an adventure. With its playful colors and simple shapes, this piece captures the joy of being on the move and the little freedom that comes with every drive. It’s a reminder that sometimes, the best memories are made while cruising with nowhere to be.",
-      "details": ["Acrylic on Canvas", "70 x 70 cm"]
-
-    },
-    {
-      "id": 3,
-      "title": "Dinner",
-      "imageUrl":"dinner2.png",
-      "price": "available",
-      "description":"This piece reflects the delicate balance between inner peace and lingering struggle, where solitude becomes a companion rather than an adversary. The light stands as a quiet symbol of resilience, a small flame that holds steady in the night. The presence of the past, scattered and settled, whispers softly, reminding of paths once taken, yet urging forward.",
-      "details": ["Acrylic on Canvas", "60 x 60 cm"]
-    },
-    {
-      "id": 4,
-      "title": "Girl 1",
-      "imageUrl":"girl_1.png",
-      "price": "sold",
-      "description":"This piece embodies the raw energy of resilience, where strength is not shouted but felt deeply within. It carries the emotion of someone who has faced battles, yet stands firm, steady, and unshaken. The air is thick with a sense of determination and passion, as if her presence alone can ignite change.",
-      "details": ["Acrylic on Canvas", "120 x 100 cm"]
-    },
-    {
-        "id": 5,
-        "title": "Girl 2",
+      "title": "Girl 2",
         "imageUrl":"girl_2.png",
         "price": "sold",
         "description":"\"Girl 2\" embodies the tension between vulnerability and strength, a moment caught between the present and the unknown future. There’s a quiet anticipation in the air, as if something unseen lingers just beyond the horizon. It’s a reflection of the uncertainty that comes before a choice, where the weight of possibility hangs in every breath.",
       "details": ["Acrylic on Canvas", "50 x 50 cm"]
       },
-      {
-        "id": 6,
-        "title": "Kiss",
-        "imageUrl":"kiss_1.png",
-        "price": "available",
-        "description":"There’s a quiet intensity in \"Kiss\", a moment suspended between the rush of passion and the openness of letting go. It explores the fluidity of desire and the freedom to connect without limits, suggesting the delicate balance between closeness and independence. The emotions here are both bold and tender, wrapped in an air of daring honesty.",
-      "details": ["Acrylic on Canvas", "120 x 100 cm"]
-      },
-      {
-        "id": 7,
-        "title": "Lamp",
-        "imageUrl":"lamp.png",
-        "price": "available",
-        "description":"There’s a sense of calm in \"Lamp\", where the warmth of a simple routine offers solace from the rush of the outside world. It embodies the quiet moments that make a house feel like home, a space of reflection and gentle peace. The soft light creates a feeling of security and serenity, like a pause in the middle of life’s busy rhythm.",
-      "details": ["Acrylic on Canvas", "80x 80 cm"]
-      },
-      {
-        "id": 8,
-        "title": "Mit karte bitte",
-        "imageUrl":"mit_karte_bitte.png",
-        "price": "available",
-        "description":"“Mit Karte Bitte” expresses quiet resistance and unwavering adherence to tradition in the face of rapid change. There’s a palpable tension between the comfort of the familiar and the creeping uncertainty of modern digitalization. It reflects a deep-rooted German caution, where the fear of losing control sparks a stubborn refusal to embrace the unknown.",
-        "details": ["Acrylic on Canvas", "80 x 60 cm"]
-      },
-      {
-        "id": 9,
-        "title": "Person 1",
+      
+    {
+      "id": 2,
+      "title": "Person 1",
         "imageUrl":"person_1.png",
         "price": "available",
         "description":"\"Person 1\" evokes a delicate balance of introspection and detachment, as if suspended in a moment of personal reflection. The mood is tinged with a quiet sadness, yet there’s a sense of resilience in the way the figure holds itself. It conveys the bittersweet nature of looking inward, of confronting thoughts and memories with both grace and uncertainty.",
         "details": ["Acrylic on Canvas", "70 x 60 cm"]
       },
-      {
-        "id": 10,
-        "title": "House Life",
-        "imageUrl":"houselife.png",
+    {
+      "id": 3,
+      "title": "Lady with a Swan",
+        "imageUrl":"ladywiththeswan.png",
         "price": "available",
-        "description":"\"House Life\" captures the quiet dance of routine, where stillness holds its own kind of rhythm. In the soft balance of familiarity, a small moment of connection disrupts the ordinary, turning the everyday into something almost poetic. It’s a reminder that even the smallest interactions can bring a sense of presence and purpose.",
-        "details": ["Acrylic on Canvas", "140 x 100 cm"]
+        "description":"Grace and unpredictability intertwine in a fleeting instant of connection. The comfort of habit meets the gentle nudge of something new, disrupting the rhythm just enough to create a moment of wonder. It speaks to the beauty of contrast, where routine and spontaneity coexist in quiet harmony.",
+        "details": ["Acrylic on Canvas", "130 x 100 cm"]
       },
-      {
-        "id": 11,
-        "title": "Crop top",
-        "imageUrl":"Crop-top.png",
+     
+    {
+      "id": 4,
+      "title": "Self Portrait",
+        "imageUrl":"selfportrait.png",
         "price": "available",
-        "description":"\"Crop Top\" embodies a lively spark, a tribute to those moments when life feels fresh and full of possibilities. There’s a playful vigor that evokes a sense of being in motion, savoring each second. It’s about embracing the simplicity of joy, letting the day unfold without hesitation or constraint.",
-        "details": ["Acrylic on Canvas", "120 x 100 cm"]
+        "description":"A quiet moment of self-recognition, where the past lingers behind and the future remains undefined. The mind drifts, caught between memory and possibility, searching for meaning in the spaces in between. Purpose isn’t fixed; it shifts with each passing thought.",
+        "details": ["Acrylic on Canvas", "50 x 50 cm"]
       },
-      {
-        "id": 12,
+      
+    {
+        "id": 5,
         "title": "Tote",
         "imageUrl":"Tote.png",
         "price": "available",
@@ -98,21 +43,88 @@
         "details": ["Acrylic on Canvas", "80 x 80 cm"]
       },
       {
-        "id": 13,
-        "title": "Self Portrait",
-        "imageUrl":"selfportrait.png",
+        "id": 6,
+        "title": "Girl 1",
+      "imageUrl":"girl_1.png",
+      "price": "sold",
+      "description":"This piece embodies the raw energy of resilience, where strength is not shouted but felt deeply within. It carries the emotion of someone who has faced battles, yet stands firm, steady, and unshaken. The air is thick with a sense of determination and passion, as if her presence alone can ignite change.",
+      "details": ["Acrylic on Canvas", "120 x 100 cm"]
+    },
+        
+      {
+        "id": 7,
+        "title": "Mit karte bitte",
+        "imageUrl":"mit_karte_bitte.png",
         "price": "available",
-        "description":"A quiet moment of self-recognition, where the past lingers behind and the future remains undefined. The mind drifts, caught between memory and possibility, searching for meaning in the spaces in between. Purpose isn’t fixed; it shifts with each passing thought.",
-        "details": ["Acrylic on Canvas", "50 x 50 cm"]
+        "description":"“Mit Karte Bitte” expresses quiet resistance and unwavering adherence to tradition in the face of rapid change. There’s a palpable tension between the comfort of the familiar and the creeping uncertainty of modern digitalization. It reflects a deep-rooted German caution, where the fear of losing control sparks a stubborn refusal to embrace the unknown.",
+        "details": ["Acrylic on Canvas", "80 x 60 cm"]
       },
+       
+      {
+        "id": 8,
+        "title": "Crop top",
+        "imageUrl":"Crop-top.png",
+        "price": "available",
+        "description":"\"Crop Top\" embodies a lively spark, a tribute to those moments when life feels fresh and full of possibilities. There’s a playful vigor that evokes a sense of being in motion, savoring each second. It’s about embracing the simplicity of joy, letting the day unfold without hesitation or constraint.",
+        "details": ["Acrylic on Canvas", "120 x 100 cm"]
+      },
+       
+      {
+        "id": 9,
+        "title": "Dinner",
+        "imageUrl":"dinner2.png",
+        "price": "available",
+        "description":"This piece reflects the delicate balance between inner peace and lingering struggle, where solitude becomes a companion rather than an adversary. The light stands as a quiet symbol of resilience, a small flame that holds steady in the night. The presence of the past, scattered and settled, whispers softly, reminding of paths once taken, yet urging forward.",
+        "details": ["Acrylic on Canvas", "60 x 60 cm"]
+      },
+        
+      {
+        "id": 10,
+        "title": "Lamp",
+        "imageUrl":"lamp.png",
+        "price": "available",
+        "description":"There’s a sense of calm in \"Lamp\", where the warmth of a simple routine offers solace from the rush of the outside world. It embodies the quiet moments that make a house feel like home, a space of reflection and gentle peace. The soft light creates a feeling of security and serenity, like a pause in the middle of life’s busy rhythm.",
+      "details": ["Acrylic on Canvas", "80x 80 cm"]
+      },
+       
+      {
+        "id": 11,
+        "title": "House Life",
+        "imageUrl":"houselife.png",
+        "price": "available",
+        "description":"\"House Life\" captures the quiet dance of routine, where stillness holds its own kind of rhythm. In the soft balance of familiarity, a small moment of connection disrupts the ordinary, turning the everyday into something almost poetic. It’s a reminder that even the smallest interactions can bring a sense of presence and purpose.",
+        "details": ["Acrylic on Canvas", "140 x 100 cm"]
+      },
+        
+       
+      {
+        "id": 12,
+        "title": "Kiss",
+        "imageUrl":"kiss_1.png",
+        "price": "available",
+        "description":"There’s a quiet intensity in \"Kiss\", a moment suspended between the rush of passion and the openness of letting go. It explores the fluidity of desire and the freedom to connect without limits, suggesting the delicate balance between closeness and independence. The emotions here are both bold and tender, wrapped in an air of daring honesty.",
+      "details": ["Acrylic on Canvas", "120 x 100 cm"]
+      },
+        
+      {
+        "id": 13,
+        "title": "Car",
+      "imageUrl":"car.png",
+      "price": "available",
+      "description":"\"Car\" is all about those fun, carefree moments on the road, where the world passes by and you're just enjoying the ride. It’s the thrill of hopping into a car, whether for a long drive or a quick escape, that makes any journey feel like an adventure. With its playful colors and simple shapes, this piece captures the joy of being on the move and the little freedom that comes with every drive. It’s a reminder that sometimes, the best memories are made while cruising with nowhere to be.",
+      "details": ["Acrylic on Canvas", "70 x 70 cm"]
+
+    },
+        
       {
         "id": 14,
-        "title": "Lady with a Swan",
-        "imageUrl":"ladywiththeswan.png",
-        "price": "available",
-        "description":"Grace and unpredictability intertwine in a fleeting instant of connection. The comfort of habit meets the gentle nudge of something new, disrupting the rhythm just enough to create a moment of wonder. It speaks to the beauty of contrast, where routine and spontaneity coexist in quiet harmony.",
-        "details": ["Acrylic on Canvas", "130 x 100 cm"]
-      }
+        "title": "Boat",
+      "imageUrl":"boat.png",
+      "price": "available",
+      "description": "This piece evokes the feeling of floating between freedom and safety, like drifting on open water with the quiet assurance of being anchored. There's a sense of boundless exploration, where the vastness brings both calm and exhilaration, while the presence of protection offers quiet comfort amidst the adventure.",
+      "details": ["Acrylic on Canvas", "80 x 80 cm"]
+
+    }
       
   ]
   
