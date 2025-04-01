@@ -32,9 +32,9 @@ const Home = () => {
             {/* Mobile Version */}
             <div className="lg:hidden relative min-h-screen bg-[#80543F]">
                 {/* Text Container - Fixed height */}
-                <div className="pt-8 px-4 text-center text-white z-10 h-[25vh] min-h-[200px] flex flex-col justify-end pb-4">
-                    <h1 className="text-lg font-normal mb-1 uppercase">Dominik Piłat</h1>
-                    <h2 className="text-2xl font-medium mb-1">
+                <div className="pt-8 px-4 text-center text-white z-10 h-[25vh] min-h-[200px] flex flex-col justify-end pb-4 tight-lines;">
+                    <h1 className="text-lg font-normal mb-1 uppercase ">Dominik Piłat</h1>
+                    <h2 className="text-2xl font-medium mb-1 tight-lines">
                         artist, designer, <span className="block">artichoke enthusiast</span>
                     </h2>
                     <p className="text-md font-normal">Your favorite creative living in Berlin</p>

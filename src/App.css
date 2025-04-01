@@ -252,6 +252,11 @@ a:link {
 .large-grid {
     padding-bottom: 80px !important;
   }
+  
+  .tight-lines {
+  line-height: 0.8 !important;
+  margin-bottom: 0.1rem !important;
+}
     
   }
 
