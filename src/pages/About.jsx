@@ -3,7 +3,7 @@ import "../../src/App.css";
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center min-h-screen py-8 px-4 md:px-0 bg-[#80543F] text-white">
+    <div className="flex flex-col items-center min-h-screen py-8 px-4 md:px-0 bg-global text-white">
       {/* Centered container with max-width */}
       <div className="w-full max-w-[717px]">
         {/* Photo - full width on mobile, constrained on desktop */}

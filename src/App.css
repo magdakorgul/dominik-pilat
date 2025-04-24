@@ -38,7 +38,7 @@
 }
 
 body .bg-global{
-  background-color: #80543F;
+  background-color: #1739A1;
 }
 
 html, body{
@@ -282,7 +282,7 @@ a:link {
     left: 0;
     right: 0;
     height: 100vh;
-    background: #80543F;
+    background: #1739A1;
     z-index: -1; /* Behind content */
     pointer-events: none;
   }
