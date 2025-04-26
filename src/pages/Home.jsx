@@ -30,7 +30,7 @@ const Home = () => {
             </div>
 
             {/* Mobile Version */}
-            <div className="lg:hidden relative min-h-screen bg-[#80543F]">
+            <div className="lg:hidden relative min-h-screen bg-global">
                 {/* Text Container - Fixed height */}
                 <div className="pt-8 px-4 text-center text-white z-10 h-[25vh] min-h-[200px] flex flex-col justify-end pb-4 tight-lines;">
                     <h1 className="text-lg font-normal mb-1 uppercase ">Dominik Piłat</h1>
